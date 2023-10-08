@@ -1,0 +1,166 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"unnamed_1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 25.0
+						meshes = 
+						[
+							"unnamed_2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 50.0
+						meshes = 
+						[
+							"unnamed_3",
+						]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "megascans/building/materials/modular_stone_wall_xfxobiziy.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "/megascans/building/assets/meshes/xfxobiziy_lod0.fbx"
+						import_translation = [ 30.0, -30.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.393701
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Aset_building__M_xfxobiziy_02_LOD0",
+								"Aset_building__M_xfxobiziy_03_LOD0",
+								"Aset_building__M_xfxobiziy_00_LOD0",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "/megascans/building/assets/meshes/xfxobiziy_lod2.fbx"
+						import_translation = [ 30.0, -30.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.393701
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Aset_building__M_xfxobiziy_02_LOD2",
+								"Aset_building__M_xfxobiziy_03_LOD2",
+								"Aset_building__M_xfxobiziy_00_LOD2",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "/megascans/building/assets/meshes/xfxobiziy_lod4.fbx"
+						import_translation = [ 30.0, -30.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.393701
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Aset_building__M_xfxobiziy_02_LOD4",
+								"Aset_building__M_xfxobiziy_03_LOD4",
+								"Aset_building__M_xfxobiziy_00_LOD4",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						disabled = true
+						parent_bone = ""
+						surface_prop = "default"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+					{
+						_class = "PhysicsMeshFile"
+						parent_bone = ""
+						surface_prop = "concrete"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 30.0, -30.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						filename = "megascans/building/assets/meshes/xfxobiziy_lod4.fbx"
+						import_scale = 0.3937
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"Aset_building__M_xfxobiziy_00_LOD4",
+								"Aset_building__M_xfxobiziy_03_LOD4",
+								"Aset_building__M_xfxobiziy_02_LOD4",
+							]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
