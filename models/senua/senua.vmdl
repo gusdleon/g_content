@@ -1,0 +1,4317 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "mi_senua_eyeocclusion.vmat"
+								to = "models/senua/materials/mi_senua_eyeocclusion.vmat"
+							},
+							{
+								from = "mi_senua_eyerefractive.vmat"
+								to = "models/senua/materials/mi_senua_eyerefractive.vmat"
+							},
+							{
+								from = "mi_senua_outfit.vmat"
+								to = "models/senua/materials/mi_senua_outfit.vmat"
+							},
+							{
+								from = "mi_senua_fur.vmat"
+								to = "models/senua/materials/mi_senua_fur.vmat"
+							},
+							{
+								from = "mi_senua_hairbase.vmat"
+								to = "models/senua/materials/mi_senua_hairbase.vmat"
+							},
+							{
+								from = "mi_senua_head_painted.vmat"
+								to = "models/senua/materials/mi_senua_head_painted.vmat"
+							},
+							{
+								from = "mi_senuahair.vmat"
+								to = "models/senua/materials/mi_senuahair.vmat"
+							},
+							{
+								from = "mi_senuaeyeblend.vmat"
+								to = "models/senua/materials/mi_senuaeyeblend.vmat"
+							},
+							{
+								from = "mi_senuabrows.vmat"
+								to = "models/senua/materials/mi_senuabrows.vmat"
+							},
+							{
+								from = "mi_senua_lashes.vmat"
+								to = "models/senua/materials/mi_senua_lashes.vmat"
+							},
+							{
+								from = "mi_senua_headbag.vmat"
+								to = "models/senua/materials/mi_senua_headbag.vmat"
+							},
+							{
+								from = "mi_senua_headpieceao.vmat"
+								to = "models/senua/materials/mi_senua_headpieceao.vmat"
+							},
+							{
+								from = "mi_senua_mirror.vmat"
+								to = "models/senua/materials/mi_senua_mirror.vmat"
+							},
+							{
+								from = "mi_senua_tears.vmat"
+								to = "models/senua/materials/mi_senua_tears.vmat"
+							},
+							{
+								from = "mi_senua_skinwithrot.vmat"
+								to = "models/senua/materials/mi_senua_skinwithrot.vmat"
+							},
+							{
+								from = "mi_senua_mouth_new.vmat"
+								to = "models/senua/materials/mi_senua_mouth_new.vmat"
+							},
+							{
+								from = "mi_senua_fur_0.vmat"
+								to = "models/senua/materials/mi_senua_fur_0.vmat"
+							},
+							{
+								from = "mi_senua_headbag_0.vmat"
+								to = "models/senua/materials/mi_senua_headbag_0.vmat"
+							},
+							{
+								from = "mi_senua_headbag_1.vmat"
+								to = "models/senua/materials/mi_senua_headbag_1.vmat"
+							},
+							{
+								from = "mi_senua_outfit_ds_0.vmat"
+								to = "models/senua/materials/mi_senua_outfit_ds_0.vmat"
+							},
+							{
+								from = "mi_senua_outfit_ds_1.vmat"
+								to = "models/senua/materials/mi_senua_outfit_ds_1.vmat"
+							},
+							{
+								from = "mi_senua_outfit_ds.vmat"
+								to = "models/senua/materials/mi_senua_outfit_ds.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/senua/assets/models/senua.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = "_rootJoint"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.03937
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "_rootJoint"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "root_04"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "COG_05"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "l_weapon_hip_holster_06"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "holster_tie_a_01_07"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "holster_tie_a_02_08"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "holster_tie_a_03_09"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "holster_tie_a_03_09_end"
+																				origin = [ 0.0, 427.510742, 0.000488 ]
+																				angles = [ 0.000002, 0.0, -0.000001 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ -6.90332, 427.445801, 3.27002 ]
+																		angles = [ 0.533447, -9.56427, 6.004063 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -10.21875, 427.858398, 1.489258 ]
+																angles = [ -2.400355, -4.504385, -7.144773 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 55.800781, 398.919434, 60.304688 ]
+														angles = [ 6.542617, -178.935867, -13.522101 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "holster_tie_b_01_010"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "holster_tie_b_02_011"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "holster_tie_b_03_012"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "holster_tie_b_03_012_end"
+																				origin = [ 0.0, 468.619629, 0.000122 ]
+																				angles = [ 0.000003, -0.000009, -0.000001 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.000488, 468.620117, 0.0 ]
+																		angles = [ 0.533417, -9.56435, -4.473598 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -5.973633, 469.492188, 0.002441 ]
+																angles = [ 0.000003, -16.621401, -2.079251 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 62.939941, 420.57373, 26.376465 ]
+														angles = [ 8.305861, -171.26091, -30.093046 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1959.884766, 959.887695, 133.276489 ]
+												angles = [ 1.423416, -13.369555, 132.132431 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "r_weapon_hip_holster_013"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "r_weapon_hip_holster_013_end"
+														origin = [ 0.000732, 1003.528564, -0.000977 ]
+														angles = [ 0.000006, 0.000002, 0.00002 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -1658.699951, -414.68457, -646.370117 ]
+												angles = [ -0.767864, 7.14133, 116.75882 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "l_leg_014"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "l_knee_015"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_ankle_016"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_ball_017"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "l_ball_017_end"
+																				origin = [ 0.000122, 1186.389648, -0.000305 ]
+																				angles = [ 0.0, 0.000003, 0.000002 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ -0.000366, 1186.392334, -0.000793 ]
+																		angles = [ -0.000015, -0.000003, 23.855764 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.001343, 3769.109619, 0.000748 ]
+																angles = [ 9.090904, -5.526657, 73.695564 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "l_knee_volume_018"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_knee_volume_018_end"
+																		origin = [ 0.000366, 1256.369385, 0.000122 ]
+																		angles = [ -0.000005, 0.000001, 0.000004 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.0, 0.0, 0.000153 ]
+																angles = [ -0.000004, -0.000038, 7.31058 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "l_lowerleg_roll_01_019"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_lowerleg_roll_01_019_end"
+																		origin = [ 0.000122, 1256.368896, -0.000031 ]
+																		angles = [ -0.000003, -0.000001, 0.000005 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.000488, 1256.370361, 0.000336 ]
+																angles = [ 5.871609, -0.000038, 0.000006 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "l_lowerleg_roll_02_020"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_lowerleg_roll_02_020_end"
+																		origin = [ -0.000244, 1256.369385, 0.000366 ]
+																		angles = [ -0.000005, 0.0, 0.000004 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.000732, 2512.739746, 0.000534 ]
+																angles = [ 11.743202, -0.000049, -0.000017 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "l_lowerleg_roll_03_021"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_lowerleg_roll_03_021_end"
+																		origin = [ -0.000244, 1256.369019, 0.0 ]
+																		angles = [ -0.000003, 0.0, 0.000004 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.001343, 3769.109619, 0.000748 ]
+																angles = [ 17.632458, -0.000006, 0.00001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.00061, 4237.587402, -0.002686 ]
+														angles = [ -0.000002, 0.000022, -17.621193 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "l_leg_roll_01_022"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_leg_roll_01_022_end"
+																origin = [ 0.000488, 1412.529785, -0.00061 ]
+																angles = [ -0.000002, 0.000001, 0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.00061, 0.0, 0.000244 ]
+														angles = [ -0.623973, 0.000016, -0.000014 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "l_leg_roll_02_023"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_leg_roll_02_023_end"
+																origin = [ 0.000366, 1412.52832, 0.000122 ]
+																angles = [ -0.000004, 0.000002, -0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.000732, 1412.529297, -0.000977 ]
+														angles = [ -0.415553, 0.000017, -0.000041 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "l_leg_roll_03_024"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_leg_roll_03_024_end"
+																origin = [ -0.000122, 1412.527344, 0.000732 ]
+																angles = [ -0.000003, 0.000001, -0.0 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.00061, 2825.058594, -0.001709 ]
+														angles = [ -0.207788, 0.000011, -0.000056 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 876.042725, 489.507812, -0.000122 ]
+												angles = [ 16.891542, 173.545883, 179.623001 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "r_leg_025"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "r_knee_026"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_ankle_027"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_ball_028"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "r_ball_028_end"
+																				origin = [ -0.000366, 1186.389648, 0.000122 ]
+																				angles = [ -0.000007, 0.0, 0.000006 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ -0.008789, 1186.391724, 0.000488 ]
+																		angles = [ 0.000001, 0.000002, 23.035461 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.006836, 3769.110107, 0.000488 ]
+																angles = [ -2.706195, 9.551888, 77.792297 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "r_knee_volume_029"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_knee_volume_029_end"
+																		origin = [ 0.000244, 1256.365479, -0.000122 ]
+																		angles = [ 0.000003, 0.000003, -0.000007 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -0.000244, -0.000488, 0.000244 ]
+																angles = [ 0.000002, 0.000027, 0.573276 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "r_lowerleg_roll_01_030"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_lowerleg_roll_01_030_end"
+																		origin = [ 0.000244, 1256.365601, 0.000122 ]
+																		angles = [ 0.000002, 0.000003, -0.000009 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.005371, 1256.367676, 0.001221 ]
+																angles = [ -3.554396, 0.000027, -0.000013 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "r_lowerleg_roll_02_031"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_lowerleg_roll_02_031_end"
+																		origin = [ 0.000122, 1256.365234, -0.000122 ]
+																		angles = [ 0.000003, 0.000003, -0.00001 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.000488, 2512.743652, 0.000732 ]
+																angles = [ -7.10877, -0.000003, -0.000006 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "r_lowerleg_roll_03_032"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_lowerleg_roll_03_032_end"
+																		origin = [ 0.000488, 1256.365234, 0.000366 ]
+																		angles = [ 0.000002, 0.0, -0.000007 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.006836, 3769.110107, 0.000488 ]
+																angles = [ -10.67383, 0.000003, 0.000004 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.00293, 4237.595215, -0.000305 ]
+														angles = [ 0.00001, -0.00002, -6.066577 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "r_leg_roll_01_033"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_leg_roll_01_033_end"
+																origin = [ 0.000488, 1412.53125, -0.000244 ]
+																angles = [ -0.000003, 0.000002, -0.000003 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.000244, 0.000977, 0.000427 ]
+														angles = [ 1.775743, -0.000024, 0.000002 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "r_leg_roll_02_034"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_leg_roll_02_034_end"
+																origin = [ 0.000488, 1412.52832, -0.000061 ]
+																angles = [ 0.000003, 0.000002, -0.000005 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.001465, 1412.533691, -0.000366 ]
+														angles = [ 1.182647, -0.000024, 0.000004 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "r_leg_roll_03_035"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_leg_roll_03_035_end"
+																origin = [ 0.0, 1412.52832, 0.000244 ]
+																angles = [ -0.000002, 0.000001, -0.000004 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.002441, 2825.062988, -0.000488 ]
+														angles = [ 0.591344, -0.00002, -0.000003 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -876.043091, 489.50293, -0.00061 ]
+												angles = [ -12.822466, -166.90329, 164.666153 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "spine_00_036"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "spine_01_037"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "spine_02_038"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "spine_03_039"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "sternum_040"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "l_weapon_torso_holster_041"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "l_weapon_torso_holster_041_end"
+																								origin = [ -0.000244, 2061.108398, -0.004883 ]
+																								angles = [ -0.0, 0.000003, -0.000007 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 1658.693359, -228.801758, -673.414917 ]
+																						angles = [ 1.9809, -6.905078, 126.583855 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "r_weapon_torso_holster_042"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "r_weapon_torso_holster_042_end"
+																								origin = [ 0.000732, 2061.107422, -0.008789 ]
+																								angles = [ 0.000003, 0.000002, 0.000002 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -1658.706787, -228.790039, -673.411987 ]
+																						angles = [ -1.980907, 6.905077, 126.583969 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "mid_weapon_torso_holster_043"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "mid_weapon_torso_holster_043_end"
+																								origin = [ 0.00061, 2061.111084, 0.000977 ]
+																								angles = [ -0.000002, 0.000005, 0.000005 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -0.004868, -526.430664, 1032.570312 ]
+																						angles = [ -1.980905, 6.90508, 92.493805 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "neck_01_044"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "neck_02_045"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "head_046"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "hair_01_047"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "hair_02_048"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "hair_03_049"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_04_050"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_05_051"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_06_052"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_07_053"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "hair_07_053_end"
+																																										origin = [ 0.0, 113.22168, 0.0 ]
+																																										angles = [ 0.000003, 0.000001, -0.000001 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ -0.002197, 800.003906, -0.000244 ]
+																																								angles = [ 0.000003, -0.000013, -0.000001 ]
+																																								do_not_discard = true
+																																							},
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_07_a_01_054"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "hair_07_a_02_055"
+																																										children = 
+																																										[
+																																											{
+																																												_class = "Bone"
+																																												name = "hair_07_a_02_055_end"
+																																												origin = [ 0.001465, 978.185547, -0.001465 ]
+																																												angles = [ -0.000007, 0.000008, 0.000009 ]
+																																												do_not_discard = true
+																																											},
+																																										]
+																																										origin = [ 0.00293, 978.19043, -0.001709 ]
+																																										angles = [ -1.005869, -4.228805, 6.609137 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ -64.374756, 209.392578, -194.914856 ]
+																																								angles = [ 47.513084, -168.531403, -174.723251 ]
+																																								do_not_discard = true
+																																							},
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_07_b_01_056"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "hair_07_b_02_057"
+																																										children = 
+																																										[
+																																											{
+																																												_class = "Bone"
+																																												name = "hair_07_b_02_057_end"
+																																												origin = [ 0.001953, 1218.137695, 0.031738 ]
+																																												angles = [ 0.000002, 0.000004, -0.000001 ]
+																																												do_not_discard = true
+																																											},
+																																										]
+																																										origin = [ 0.000488, 1218.141602, 0.032227 ]
+																																										angles = [ -0.000088, 0.000096, 0.000022 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ -37.218018, 19.62207, 105.115479 ]
+																																								angles = [ -71.20327, -148.292633, 147.387299 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ -0.001465, 800.001953, -0.000366 ]
+																																						angles = [ 0.000007, -0.000013, 0.0 ]
+																																						do_not_discard = true
+																																					},
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_06_a_01_058"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_06_a_02_059"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "hair_06_a_03_060"
+																																										children = 
+																																										[
+																																											{
+																																												_class = "Bone"
+																																												name = "hair_06_a_03_060_end"
+																																												origin = [ -0.001953, 800.001953, -0.000183 ]
+																																												angles = [ 0.000004, -0.0, -0.000002 ]
+																																												do_not_discard = true
+																																											},
+																																										]
+																																										origin = [ -0.001465, 799.998047, -0.000427 ]
+																																										angles = [ -0.000025, -0.000013, -0.0 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ -0.000977, 800.0, -0.000183 ]
+																																								angles = [ 0.000052, 0.000001, -0.000002 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ 281.068115, 202.070312, -0.000427 ]
+																																						angles = [ 0.000011, -0.000013, -0.000001 ]
+																																						do_not_discard = true
+																																					},
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_06_b_01_061"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_06_b_02_062"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "hair_06_b_03_063"
+																																										children = 
+																																										[
+																																											{
+																																												_class = "Bone"
+																																												name = "hair_06_b_03_063_end"
+																																												origin = [ -0.000793, 799.996094, 0.0 ]
+																																												angles = [ 0.000009, 0.000005, 0.000002 ]
+																																												do_not_discard = true
+																																											},
+																																										]
+																																										origin = [ -0.000687, 800.003906, 0.000488 ]
+																																										angles = [ -0.000026, 0.000006, 7.508026 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ -0.000244, 800.0, 0.002441 ]
+																																								angles = [ 0.054128, 7.511639, -5.19072 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ 182.404541, 318.996094, -0.000244 ]
+																																						angles = [ 40.018501, -18.796085, -16.666912 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ -0.000977, 800.001953, -0.000366 ]
+																																				angles = [ 0.000032, 0.000013, -0.000003 ]
+																																				do_not_discard = true
+																																			},
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_05_a_01_064"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_05_a_02_065"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_05_a_03_066"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "hair_05_a_03_066_end"
+																																										origin = [ -0.000732, 949.576172, 0.000488 ]
+																																										angles = [ -0.000003, 0.0, 0.0 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ 0.0, 949.587891, 0.000244 ]
+																																								angles = [ -0.0, -0.000018, -0.00002 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ -0.000488, 949.583984, 0.000732 ]
+																																						angles = [ 0.000142, 0.000011, 0.000011 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ 92.456787, 501.345703, 225.236908 ]
+																																				angles = [ -56.771023, -3.887655, 4.644636 ]
+																																				do_not_discard = true
+																																			},
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_05_b_01_067"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_05_b_02_068"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_05_b_02_068_end"
+																																								origin = [ -0.000977, 905.581055, 0.000732 ]
+																																								angles = [ 0.000002, -0.000002, -0.000002 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ -0.001953, 905.585938, 0.001343 ]
+																																						angles = [ 0.000137, 0.000084, 0.000085 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ 15.255859, 644.974609, -308.909424 ]
+																																				angles = [ -47.371376, 2.796939, -3.798968 ]
+																																				do_not_discard = true
+																																			},
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_05_c_01_069"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_05_c_02_070"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_05_c_02_070_end"
+																																								origin = [ -0.002441, 930.943359, -0.000488 ]
+																																								angles = [ 0.000004, -0.000002, -0.000001 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ -0.001709, 930.945312, 0.0 ]
+																																						angles = [ 0.000028, 11.651736, 0.000027 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ -348.808594, 461.112305, 0.000183 ]
+																																				angles = [ 0.000016, -5.364124, -0.000017 ]
+																																				do_not_discard = true
+																																			},
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_05_d_03_071"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_05_d_02_072"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "hair_05_d_02_072_end"
+																																								origin = [ -0.000519, 905.585938, 0.000366 ]
+																																								angles = [ -0.000012, 0.000004, 0.000001 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ -0.000076, 905.586914, 0.00061 ]
+																																						angles = [ -0.000166, 0.000017, 0.000002 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ 199.130127, 238.472656, -274.583191 ]
+																																				angles = [ 56.015839, -8.203861, -2.054449 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ -0.004395, 800.001953, -0.000244 ]
+																																		angles = [ -0.000026, -4.961706, -0.000012 ]
+																																		do_not_discard = true
+																																	},
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_04_a_01_073"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_04_a_01_073_end"
+																																				origin = [ -0.000183, 246.395508, 0.000244 ]
+																																				angles = [ -0.000007, -0.000006, 0.000002 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 203.289062, -5.661133, 139.114929 ]
+																																		angles = [ 55.737751, 155.299179, 163.101273 ]
+																																		do_not_discard = true
+																																	},
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_04_b_01_074"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_04_b_02_075"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "hair_04_b_02_075_end"
+																																						origin = [ -0.000488, 525.299805, -0.000671 ]
+																																						angles = [ -0.000009, -0.00001, -0.0 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ 0.000977, 525.303711, -0.001282 ]
+																																				angles = [ -0.000019, 0.0, 0.000014 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 78.696289, 532.396484, 198.656982 ]
+																																		angles = [ 65.967728, 100.501419, 116.321739 ]
+																																		do_not_discard = true
+																																	},
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_04_c_01_076"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_04_c_01_076_end"
+																																				origin = [ 0.000488, 246.396484, 0.002441 ]
+																																				angles = [ -0.000009, 0.00001, 0.000001 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 179.086426, 560.547852, -274.583191 ]
+																																		angles = [ 57.884209, -55.543869, -59.305187 ]
+																																		do_not_discard = true
+																																	},
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_04_d_01_077"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "hair_04_d_01_077_end"
+																																				origin = [ -0.000977, 246.397949, 0.0 ]
+																																				angles = [ 0.000001, -0.000016, 0.000002 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ -263.884277, 143.974609, 42.238525 ]
+																																		angles = [ -4.730118, 54.132931, 10.257994 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.003906, 800.0, -0.00061 ]
+																																angles = [ -0.000033, -25.126097, -0.000023 ]
+																																do_not_discard = true
+																															},
+																															{
+																																_class = "Bone"
+																																name = "hair_03_a_01_078"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_03_a_01_078_end"
+																																		origin = [ 0.000977, 337.499023, 0.000488 ]
+																																		angles = [ -0.000007, -0.000003, 0.000003 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -117.286133, 379.578125, -206.212891 ]
+																																angles = [ -26.585199, 16.419533, -10.225775 ]
+																																do_not_discard = true
+																															},
+																															{
+																																_class = "Bone"
+																																name = "hair_03_b_01_079"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "hair_03_b_01_079_end"
+																																		origin = [ 0.0, 337.49707, -0.000061 ]
+																																		angles = [ 0.000005, -0.000006, 0.000002 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -240.724609, 232.111328, 45.601929 ]
+																																angles = [ 0.292402, 22.274448, -0.735859 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 0.001953, 800.002319, 0.000122 ]
+																														angles = [ 0.000005, -58.124458, 0.000041 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "hair_02_a_01_080"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "hair_02_a_01_080_end"
+																																origin = [ 0.00293, 673.536621, 0.000038 ]
+																																angles = [ -0.0, 0.00001, 0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -315.78125, 594.802856, -11.821716 ]
+																														angles = [ 0.775119, 16.3778, -6.505829 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ 0.008911, 1481.993164, -807.300293 ]
+																												angles = [ 0.069396, -90.000328, -89.997459 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "FACIAL_C_FacialRoot_081"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_L_EyelidUpper_082"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_L_EyelidUpper_082_end"
+																																origin = [ -0.000183, 271.287109, -0.000488 ]
+																																angles = [ 0.000003, -0.000002, -0.000008 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 277.389648, -172.508789, -781.093689 ]
+																														angles = [ 0.000028, -0.000005, -16.999903 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_R_EyelidUpper_083"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_R_EyelidUpper_083_end"
+																																origin = [ -0.000061, 271.286133, -0.000977 ]
+																																angles = [ 0.000003, -0.000001, -0.000007 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -304.755859, -161.928711, -779.966187 ]
+																														angles = [ 0.000027, -0.000005, -16.999886 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_L_Eyeball_084"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_L_Pupil_085"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "FACIAL_L_Pupil_085_end"
+																																		origin = [ 0.008972, 16034.117188, -0.239288 ]
+																																		angles = [ 0.000002, -0.000003, 0.000002 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ 10.798218, -3.28125, -102.858978 ]
+																																angles = [ -5.000022, 0.000029, 0.000595 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 277.389648, -172.508789, -781.093689 ]
+																														angles = [ 0.000015, -0.000002, 0.000024 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_R_Eyeball_086"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_R_Pupil_087"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "FACIAL_R_Pupil_087_end"
+																																		origin = [ 0.003235, 16023.982422, -0.023926 ]
+																																		angles = [ 0.000004, -0.000003, 0.000001 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -1.965942, -6.339844, -103.440369 ]
+																																angles = [ 5.000022, -0.000038, -0.000172 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -304.75592, -161.928711, -779.966064 ]
+																														angles = [ 0.000015, -0.000002, 0.000024 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_L_EyelidLower_088"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_L_EyelidLower_088_end"
+																																origin = [ 0.00058, 271.287109, 0.0 ]
+																																angles = [ -0.000001, -0.000003, 0.000009 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 277.389648, -172.508789, -781.093689 ]
+																														angles = [ 0.000017, 0.000002, 33.000072 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_R_EyelidLower_089"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_R_EyelidLower_089_end"
+																																origin = [ 0.000488, 271.287109, -0.000977 ]
+																																angles = [ -0.000001, -0.000003, 0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -304.75592, -161.928711, -779.966064 ]
+																														angles = [ 0.000003, 0.0, 33.000057 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "FACIAL_C_Jaw_090"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_C_Chin_091"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "FACIAL_C_Chin_091_end"
+																																		origin = [ 0.000244, 969.356445, -0.00531 ]
+																																		angles = [ 0.000003, -0.000002, -0.0 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -2.404419, 111.140625, -1372.504395 ]
+																																angles = [ 0.000002, -0.000001, -29.999891 ]
+																																do_not_discard = true
+																															},
+																															{
+																																_class = "Bone"
+																																name = "FACIAL_C_Tongue1_092"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "FACIAL_C_Tongue2_093"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "FACIAL_C_Tongue3_094"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "FACIAL_C_Tongue4_095"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "FACIAL_C_Tongue4_095_end"
+																																								origin = [ -0.000244, 138.691406, 0.000977 ]
+																																								angles = [ 0.000003, 0.000003, -0.000015 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ -0.000427, 138.690918, -0.015625 ]
+																																						angles = [ 0.000007, 0.000015, -0.000041 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ -0.000488, 131.224243, -0.010742 ]
+																																				angles = [ 0.000022, 0.000018, 18.949789 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ -0.000305, 138.749023, -0.017578 ]
+																																		angles = [ -0.000007, -0.000003, 44.152004 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -1.125549, 147.845703, -958.020508 ]
+																																angles = [ -0.000003, -0.000013, -162.152115 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 0.000732, -2.665039, 271.275879 ]
+																														angles = [ 0.000003, -0.000004, 29.999891 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow01_left_096"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow01_left_096_end"
+																																origin = [ 0.003906, 271.287109, 0.001953 ]
+																																angles = [ -0.000006, 0.000007, 0.000006 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 533.991577, -303.803711, -713.404358 ]
+																														angles = [ 14.781194, -133.956894, -159.343414 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow02_left_097"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow02_left_097_end"
+																																origin = [ 0.0, 271.287109, 0.0 ]
+																																angles = [ -0.000012, -0.000002, -0.000007 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 516.278687, -343.729492, -762.054565 ]
+																														angles = [ 46.682877, -140.270798, 176.689804 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow03_left_098"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow03_left_098_end"
+																																origin = [ -0.000488, 271.289062, 0.001465 ]
+																																angles = [ -0.000003, -0.000005, -0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 480.998199, -369.02832, -835.130859 ]
+																														angles = [ 35.993046, -152.879211, -179.946808 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow04_left_099"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow04_left_099_end"
+																																origin = [ -0.000488, 271.290039, 0.003174 ]
+																																angles = [ -0.000002, -0.000002, -0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 427.312347, -382.328125, -900.182251 ]
+																														angles = [ 16.928394, -154.942932, -175.990662 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow05_left_0100"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow05_left_0100_end"
+																																origin = [ 0.000488, 271.286133, 0.000366 ]
+																																angles = [ -0.0, -0.000002, -0.000001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 362.463501, -372.49707, -959.541565 ]
+																														angles = [ -8.819633, -161.628952, -176.438934 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow06_left_0101"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow06_left_0101_end"
+																																origin = [ 0.0, 271.290039, -0.000732 ]
+																																angles = [ 0.000015, 0.00001, -0.000004 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 270.536682, -350.418945, -998.924988 ]
+																														angles = [ -32.744141, -159.580658, 170.540436 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow07_left_0102"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow07_left_0102_end"
+																																origin = [ 0.001465, 271.287109, -0.000763 ]
+																																angles = [ 0.00001, 0.000014, -0.000004 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 190.814362, -331.223633, -1015.67981 ]
+																														angles = [ -40.625984, -148.274292, 156.172379 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow08_left_0103"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow08_left_0103_end"
+																																origin = [ 0.000488, 271.288086, -0.000732 ]
+																																angles = [ -0.0, 0.0, 0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 117.317444, -306.779297, -1018.624878 ]
+																														angles = [ -37.84243, -148.671616, 150.155228 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow01_right_0104"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow01_right_0104_end"
+																																origin = [ -0.000488, 271.288086, 0.0 ]
+																																angles = [ 0.000014, -0.000007, 0.0 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -562.778076, -324.294922, -732.603882 ]
+																														angles = [ 61.006245, -79.715157, 156.742722 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow02_right_0105"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow02_right_0105_end"
+																																origin = [ 0.0, 271.289062, -0.000977 ]
+																																angles = [ -0.000006, 0.000003, -0.000002 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -542.579224, -342.131836, -791.399902 ]
+																														angles = [ -46.553883, 127.431015, 9.488597 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow03_right_0106"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow03_right_0106_end"
+																																origin = [ 0.0, 271.288086, -0.000488 ]
+																																angles = [ -0.000008, 0.000008, -0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -503.261597, -356.556641, -849.589294 ]
+																														angles = [ -56.906994, 130.345078, 23.24366 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow04_right_0107"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow04_right_0107_end"
+																																origin = [ 0.0, 271.287109, 0.000061 ]
+																																angles = [ -0.00002, 0.000002, 0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -449.80481, -368.230469, -910.333435 ]
+																														angles = [ -61.796925, 154.219833, 17.517586 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow05_right_0108"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow05_right_0108_end"
+																																origin = [ 0.0, 271.288086, 0.0 ]
+																																angles = [ -0.000009, -0.000005, 0.000001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -381.677368, -364.259766, -961.121826 ]
+																														angles = [ -66.04641, -170.274124, -4.193637 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow06_right_0109"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow06_right_0109_end"
+																																origin = [ -0.001953, 271.289062, 0.0 ]
+																																angles = [ -0.00001, -0.000007, 0.0 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -296.092407, -345.026367, -999.589539 ]
+																														angles = [ -61.566593, -139.036636, -23.227785 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow07_right_0110"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow07_right_0110_end"
+																																origin = [ -0.001953, 271.286133, 0.000488 ]
+																																angles = [ -0.000018, -0.000004, 0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -202.536865, -319.820312, -1000.841003 ]
+																														angles = [ -53.97477, -118.785255, -31.340939 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyeBrow08_right_0111"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyeBrow08_right_0111_end"
+																																origin = [ 0.001953, 271.288086, -0.000977 ]
+																																angles = [ -0.000013, -0.000009, -0.000015 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -139.682373, -287.167969, -999.764954 ]
+																														angles = [ -47.369629, -93.174286, -37.405296 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower01_left_0112"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower01_left_0112_end"
+																																origin = [ -0.001221, 271.286133, 0.000488 ]
+																																angles = [ 0.000009, -0.000007, 0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 194.597015, -136.666016, -903.386536 ]
+																														angles = [ 30.993853, 14.793859, 21.692068 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower02_left_0113"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower02_left_0113_end"
+																																origin = [ 0.0, 271.289062, 0.0 ]
+																																angles = [ 0.000003, -0.000004, 0.000011 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 229.069702, -128.424805, -918.835327 ]
+																														angles = [ 9.533069, 4.446031, 21.137577 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower03_left_0114"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower03_left_0114_end"
+																																origin = [ 0.000458, 271.289062, -0.015137 ]
+																																angles = [ -0.0, -0.000002, 0.000004 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 281.716248, -117.549805, -925.972168 ]
+																														angles = [ -10.086124, -0.598981, 7.923219 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower04_left_0115"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower04_left_0115_end"
+																																origin = [ 0.001221, 271.290039, 0.00293 ]
+																																angles = [ -0.000005, 0.000001, 0.000015 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 326.319855, -116.399414, -916.50824 ]
+																														angles = [ -29.664633, -15.123347, 32.422989 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower05_left_0116"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower05_left_0116_end"
+																																origin = [ 0.000977, 271.291016, 0.001953 ]
+																																angles = [ -0.0, 0.000011, 0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 364.166473, -126.447266, -893.23999 ]
+																														angles = [ -33.548637, -22.996649, 39.691803 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower06_left_0117"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower06_left_0117_end"
+																																origin = [ 0.0, 271.288086, -0.002441 ]
+																																angles = [ -0.000003, 0.000002, 0.00001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 402.136536, -140.633789, -861.150757 ]
+																														angles = [ -19.984037, 17.347738, 18.083284 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower01_right_0118"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower01_right_0118_end"
+																																origin = [ -0.00061, 271.288086, -0.006836 ]
+																																angles = [ -0.000009, 0.000002, -0.000007 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -209.065308, -128.543945, -900.880981 ]
+																														angles = [ 17.913031, 171.683212, 171.836319 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower02_right_0119"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower02_right_0119_end"
+																																origin = [ -0.000244, 271.288086, -0.005737 ]
+																																angles = [ -0.000003, 0.000004, -0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -253.939636, -116.426758, -919.854248 ]
+																														angles = [ 10.940902, 164.941925, 174.482437 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower03_right_0120"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower03_right_0120_end"
+																																origin = [ 0.000183, 271.288086, -0.000183 ]
+																																angles = [ 0.000005, 0.000002, -0.000002 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -304.023193, -102.914062, -928.66333 ]
+																														angles = [ -10.114708, 177.436035, 179.789124 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower04_right_0121"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower04_right_0121_end"
+																																origin = [ 0.000488, 271.288086, -0.000977 ]
+																																angles = [ 0.000012, 0.000009, -0.000007 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -360.012085, -103.84375, -914.041016 ]
+																														angles = [ -25.637453, -168.077362, 168.262817 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower05_right_0122"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower05_right_0122_end"
+																																origin = [ 0.002441, 271.291016, -0.000244 ]
+																																angles = [ 0.000008, 0.000017, -0.000009 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -416.693726, -117.847656, -878.868774 ]
+																														angles = [ -54.292297, -133.609985, 123.837791 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashLower06_right_0123"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashLower06_right_0123_end"
+																																origin = [ -0.000671, 271.289062, -0.000977 ]
+																																angles = [ 0.000007, -0.000009, 0.000007 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -443.012329, -146.322266, -836.873291 ]
+																														angles = [ 30.541853, -1.521016, 34.793423 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper01_left_0124"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper01_left_0124_end"
+																																origin = [ 0.001953, 271.291016, 0.000977 ]
+																																angles = [ 0.000003, 0.000004, -0.000003 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 195.911499, -194.297852, -905.0802 ]
+																														angles = [ 28.372828, -50.963127, -58.627625 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper02_left_0125"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper02_left_0125_end"
+																																origin = [ 0.000488, 271.289062, 0.0 ]
+																																angles = [ 0.000007, 0.000006, -0.000009 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 223.369751, -213.44043, -914.645508 ]
+																														angles = [ 13.042158, -30.599125, -32.246151 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper03_left_0126"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper03_left_0126_end"
+																																origin = [ 0.0, 271.288086, 0.000977 ]
+																																angles = [ 0.000002, 0.0, -0.000009 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 250.3255, -227.043945, -918.946411 ]
+																														angles = [ 3.501126, -11.409863, -21.844799 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper04_left_0127"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper04_left_0127_end"
+																																origin = [ 0.0, 271.286133, -0.014648 ]
+																																angles = [ -0.0, -0.000003, -0.000002 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 280.844788, -235.470703, -922.005615 ]
+																														angles = [ -11.467717, 3.107259, -18.930767 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper05_left_0128"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper05_left_0128_end"
+																																origin = [ 0.000488, 271.286133, -0.003174 ]
+																																angles = [ -0.000005, -0.000003, -0.000001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 334.709839, -232.548828, -913.446045 ]
+																														angles = [ -24.423227, 20.581224, -23.492876 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper06_left_0129"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper06_left_0129_end"
+																																origin = [ -0.000977, 271.289062, -0.001709 ]
+																																angles = [ -0.000003, 0.000002, -0.000008 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 377.696564, -216.019531, -892.946838 ]
+																														angles = [ -32.776508, 30.146372, -35.19075 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper07_left_0130"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper07_left_0130_end"
+																																origin = [ -0.001465, 271.288086, -0.000977 ]
+																																angles = [ -0.000003, -0.000008, 0.000001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 399.539764, -201.785156, -872.7677 ]
+																														angles = [ -49.50135, 49.043877, -56.316456 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper08_left_0131"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper08_left_0131_end"
+																																origin = [ -0.001465, 271.287109, -0.000732 ]
+																																angles = [ -0.000009, -0.000001, -0.000006 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 412.628967, -186.703125, -849.108459 ]
+																														angles = [ -50.770596, 56.245552, -66.699409 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper09_left_0132"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper09_left_0132_end"
+																																origin = [ -0.000061, 271.289062, 0.004883 ]
+																																angles = [ -0.000001, -0.000004, -0.000009 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 426.921387, -165.775391, -818.35791 ]
+																														angles = [ -17.500282, -2.676491, -17.982693 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper01_right_0133"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper01_right_0133_end"
+																																origin = [ 0.003906, 271.290039, 0.002441 ]
+																																angles = [ -0.000014, 0.000019, 0.000015 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -223.501099, -195.50293, -906.584229 ]
+																														angles = [ 25.24131, -136.957764, -137.279587 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper02_right_0134"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper02_right_0134_end"
+																																origin = [ 0.0, 271.291016, 0.00293 ]
+																																angles = [ 0.000001, -0.000003, 0.00001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -248.523987, -213.875977, -916.315674 ]
+																														angles = [ 10.532955, -155.191864, -142.912872 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper03_right_0135"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper03_right_0135_end"
+																																origin = [ 0.000488, 271.289062, 0.00293 ]
+																																angles = [ 0.000004, 0.000002, 0.000015 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -285.109985, -229.433594, -920.810425 ]
+																														angles = [ -2.617736, -173.55397, -151.666504 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper04_right_0136"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper04_right_0136_end"
+																																origin = [ 0.000122, 271.288086, 0.000488 ]
+																																angles = [ 0.000007, 0.000001, 0.000006 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -316.826111, -232.264648, -917.971497 ]
+																														angles = [ -7.898445, 170.213226, -156.441971 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper05_right_0137"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper05_right_0137_end"
+																																origin = [ -0.000244, 271.289062, -0.000488 ]
+																																angles = [ 0.000017, -0.000008, 0.000014 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -347.435913, -229.795898, -914.757568 ]
+																														angles = [ -22.508526, 161.702728, -151.737885 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper06_right_0138"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper06_right_0138_end"
+																																origin = [ 0.000977, 271.289062, -0.000488 ]
+																																angles = [ 0.00001, 0.000002, 0.000012 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -377.308716, -220.564453, -900.483398 ]
+																														angles = [ -16.42194, 160.545654, -151.347961 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper07_right_0139"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper07_right_0139_end"
+																																origin = [ -0.000488, 271.287109, 0.000488 ]
+																																angles = [ 0.000005, -0.000001, 0.00001 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -406.180054, -210.603516, -889.495117 ]
+																														angles = [ -38.960316, 146.328842, -133.182037 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper08_right_0140"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper08_right_0140_end"
+																																origin = [ 0.0, 271.287109, 0.000488 ]
+																																angles = [ 0.000005, -0.000006, 0.000009 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -423.567749, -198.589844, -870.913086 ]
+																														angles = [ -46.644901, 137.58287, -125.357918 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "eyelashUpper09_right_0141"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "eyelashUpper09_right_0141_end"
+																																origin = [ 0.0, 271.287109, -0.000488 ]
+																																angles = [ 0.000009, -0.000001, -0.000012 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -448.307983, -175.385742, -836.526428 ]
+																														angles = [ 12.334693, 1.86174, -24.22677 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "tearduct_right_0142"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "tearduct_right_0142_end"
+																																origin = [ 0.000244, 271.291016, -0.000259 ]
+																																angles = [ 0.000005, -0.000003, 0.0 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -182.671387, -142.602539, -886.842285 ]
+																														angles = [ 7.888695, 8.324128, -0.006252 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "tearduct_left_0143"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "tearduct_left_0143_end"
+																																origin = [ 0.001465, 271.290039, 0.005493 ]
+																																angles = [ -0.000002, -0.000003, 0.000002 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 160.419922, -148.776367, -887.804077 ]
+																														angles = [ -15.130783, -17.445997, -0.003681 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.040039, 398.811523, -58.306519 ]
+																												angles = [ -0.000008, 0.000046, -178.840515 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.000427, 768.535156, 0.0 ]
+																										angles = [ 4.720426, -7.233387, -20.874153 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000427, 768.508789, -0.000488 ]
+																								angles = [ 1.574984, -0.731961, 4.7715 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 0.027634, -2379.987305, -207.184814 ]
+																						angles = [ -7.945456, -2.358327, -152.556229 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "l_shoulder_0144"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "l_arm_0145"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "l_elbow_0146"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "l_elbow_roll_01_0147"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "l_elbow_roll_01_0147_end"
+																														origin = [ -0.001953, 807.661133, 0.000732 ]
+																														angles = [ -0.000009, -0.0, -0.000006 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.002441, 807.664062, 0.001221 ]
+																												angles = [ 7.675835, -0.000017, -0.000003 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "l_elbow_roll_02_0148"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "l_elbow_roll_02_0148_end"
+																														origin = [ -0.001465, 807.663574, 0.000977 ]
+																														angles = [ -0.000003, 0.0, -0.000005 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.004395, 1615.328125, 0.002197 ]
+																												angles = [ 15.351731, -0.000035, -0.000025 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "l_elbow_roll_03_0149"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "l_elbow_roll_03_0149_end"
+																														origin = [ -0.001953, 807.663086, 0.000854 ]
+																														angles = [ -0.000007, 0.000006, -0.000005 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.005859, 2422.991699, 0.003418 ]
+																												angles = [ 23.050652, -0.000061, -0.000054 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "l_wrist_0150"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "l_thumb_01_0151"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "l_thumb_02_0152"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "l_thumb_03_0153"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "l_thumb_03_0153_end"
+																																				origin = [ -0.000427, 266.928223, 0.000427 ]
+																																				angles = [ -0.000009, 0.000001, 0.000007 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.000549, 266.931641, -0.000977 ]
+																																		angles = [ 0.093389, -0.136543, 10.340759 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ 0.002869, 458.898438, -0.001953 ]
+																																angles = [ 10.638452, 4.4659, 24.29496 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -180.740479, 79.993652, -181.592285 ]
+																														angles = [ 22.236288, -84.355354, -106.287369 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "l_index_01_0154"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "l_index_02_0155"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "l_index_03_0156"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "l_index_03_0156_end"
+																																				origin = [ 0.0, 216.431641, 0.000488 ]
+																																				angles = [ 0.000011, -0.000005, -0.000009 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.000732, 216.432617, -0.000732 ]
+																																		angles = [ 0.00002, 0.000055, 16.162659 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.000366, 362.641602, 0.000488 ]
+																																angles = [ 0.067243, -0.151016, 38.355591 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -225.704712, 11.122559, -787.353027 ]
+																														angles = [ -0.881314, 3.10551, -74.620171 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "l_middle_01_0157"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "l_middle_02_0158"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "l_middle_03_0159"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "l_middle_03_0159_end"
+																																				origin = [ 0.000671, 240.666016, 0.0 ]
+																																				angles = [ 0.000003, -0.000009, -0.000004 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.002411, 240.66748, -0.000977 ]
+																																		angles = [ 0.067349, -0.150939, 5.045063 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ 0.000305, 417.243652, -0.004883 ]
+																																angles = [ 0.00005, -0.000009, 40.182152 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -16.831177, -37.667969, -795.867676 ]
+																														angles = [ -9.061109, 3.002871, -69.716599 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "l_ring_01_0160"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "l_ring_02_0161"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "l_ring_03_0162"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "l_ring_03_0162_end"
+																																				origin = [ 0.000671, 226.706543, 0.000488 ]
+																																				angles = [ 0.000004, 0.0, -0.000003 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.00061, 226.707031, 0.001465 ]
+																																		angles = [ 0.000017, -0.000034, 9.719881 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.000305, 343.041992, 0.00177 ]
+																																angles = [ 0.067426, -0.150921, 40.152069 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 155.013428, 0.720703, -755.129883 ]
+																														angles = [ -11.74537, 1.96732, -65.41066 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "l_pinky_00_0163"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "l_pinky_01_0164"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "l_pinky_02_0165"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "l_pinky_03_0166"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "l_pinky_03_0166_end"
+																																						origin = [ 0.000359, 151.904785, 0.000488 ]
+																																						angles = [ 0.000005, -0.000003, 0.0 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ 0.000038, 151.906738, 0.005127 ]
+																																				angles = [ 0.000027, -0.000015, 14.338424 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.000496, 260.589844, -0.011902 ]
+																																		angles = [ 0.067233, -0.150948, 31.815195 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ 0.000153, 499.103516, 0.007568 ]
+																																angles = [ 23.492231, 13.185273, 21.119015 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 163.529541, 6.36084, -193.356445 ]
+																														angles = [ -25.770657, 34.962257, -94.648796 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "l_weapon_01_0167"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "l_weapon_01_0167_end"
+																																origin = [ -0.000977, 253.316528, -0.000977 ]
+																																angles = [ 0.000005, -0.000005, 0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 180.681641, 267.524414, -978.943848 ]
+																														angles = [ 0.72843, 90.051682, -0.727849 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.007812, 2422.983887, 0.006836 ]
+																												angles = [ 82.772301, -84.926552, 6.357046 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.010498, 2535.647461, -0.000244 ]
+																										angles = [ 0.0357, 9.999796, 29.094025 ]
+																										do_not_discard = true
+																									},
+																									{
+																										_class = "Bone"
+																										name = "l_arm_roll_01_0168"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "l_arm_roll_01_0168_end"
+																												origin = [ 0.000244, 845.214844, 0.000244 ]
+																												angles = [ 0.000002, 0.000001, 0.0 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.000488, 0.0, -0.000244 ]
+																										angles = [ -13.42781, 0.000025, -0.000665 ]
+																										do_not_discard = true
+																									},
+																									{
+																										_class = "Bone"
+																										name = "l_arm_roll_02_0169"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "l_arm_roll_02_0169_end"
+																												origin = [ 0.000732, 845.220703, 0.0 ]
+																												angles = [ -0.0, -0.000001, -0.0 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.004395, 845.216797, 0.000488 ]
+																										angles = [ -6.690509, -0.00005, -0.00033 ]
+																										do_not_discard = true
+																									},
+																									{
+																										_class = "Bone"
+																										name = "l_arm_roll_03_0170"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "l_arm_roll_03_0170_end"
+																												origin = [ 0.000488, 845.21582, 0.0 ]
+																												angles = [ -0.000002, 0.000001, 0.0 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.008789, 1690.432617, 0.000732 ]
+																										angles = [ -0.000461, -0.000367, 0.00002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.001831, -0.003906, 1427.427124 ]
+																								angles = [ 57.292355, 164.633469, 159.198013 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "l_shoulder_roll_01_0171"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "l_shoulder_roll_01_0171_end"
+																										origin = [ -0.002808, 1427.424805, -0.000626 ]
+																										angles = [ 0.000003, 0.0, -0.0 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.019165, 0.025391, -0.005646 ]
+																								angles = [ 0.000033, 2.685566, 0.000036 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 296.39502, -2191.036133, -421.247314 ]
+																						angles = [ 73.77977, 36.041431, 33.218342 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "r_shoulder_0172"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "r_arm_0173"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "r_elbow_0174"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "r_elbow_roll_01_0175"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "r_elbow_roll_01_0175_end"
+																														origin = [ 0.001465, 807.644531, 0.014404 ]
+																														angles = [ -0.000005, -0.000002, -0.000003 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ 0.042969, 807.643555, 0.031494 ]
+																												angles = [ -11.369841, 0.000037, -0.000563 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "r_elbow_roll_02_0176"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "r_elbow_roll_02_0176_end"
+																														origin = [ 0.001953, 807.643555, 0.011169 ]
+																														angles = [ -0.000004, 0.000002, -0.0 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ 0.005859, 1615.326172, 0.025391 ]
+																												angles = [ -22.739609, -0.000265, -0.000173 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "r_elbow_roll_03_0177"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "r_elbow_roll_03_0177_end"
+																														origin = [ 0.001953, 807.64209, 0.007568 ]
+																														angles = [ 0.000003, 0.000001, -0.000002 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.019531, 2423.010254, 0.009033 ]
+																												angles = [ -34.143463, 0.000512, -0.000174 ]
+																												do_not_discard = true
+																											},
+																											{
+																												_class = "Bone"
+																												name = "r_wrist_0178"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "r_thumb_01_0179"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "r_thumb_02_0180"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "r_thumb_03_0181"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "r_thumb_03_0181_end"
+																																				origin = [ 0.000488, 266.977539, 0.004883 ]
+																																				angles = [ -0.000006, 0.000009, -0.000004 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.032959, 266.978027, 0.022003 ]
+																																		angles = [ -0.000151, 0.000208, 10.336017 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ 0.003174, 458.894043, -0.004883 ]
+																																angles = [ -10.756995, -4.361782, 24.240374 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 180.746704, 79.907227, -181.548828 ]
+																														angles = [ -21.406031, 84.618492, -106.215508 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "r_index_01_0182"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "r_index_02_0183"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "r_index_03_0184"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "r_index_03_0184_end"
+																																				origin = [ -0.000793, 216.401367, -0.000488 ]
+																																				angles = [ 0.000001, -0.00001, -0.000012 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ -0.001587, 216.400879, -0.037598 ]
+																																		angles = [ -0.066071, 0.142138, 16.127436 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.002441, 362.633301, -0.026367 ]
+																																angles = [ 0.00008, -0.00002, 38.350712 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 225.709045, 11.116211, -787.34668 ]
+																														angles = [ 1.016598, -3.026392, -74.65416 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "r_middle_01_0186"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "r_middle_02_0187"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "r_middle_03_0188"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "r_middle_03_0188_end"
+																																				origin = [ -0.000977, 240.650391, 0.000488 ]
+																																				angles = [ 0.000003, -0.000009, -0.000005 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.010254, 240.650391, -0.011719 ]
+																																		angles = [ -0.065962, 0.1421, 5.004652 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ 0.006744, 417.211914, -0.036377 ]
+																																angles = [ -0.065975, 0.142151, 40.146748 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 16.821838, -37.669434, -795.866211 ]
+																														angles = [ 8.916388, -3.083635, -69.733894 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "r_ring_01_0189"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "r_ring_02_0190"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "r_ring_03_0191"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "r_ring_03_0191_end"
+																																				origin = [ -0.001099, 226.675781, 0.000488 ]
+																																				angles = [ 0.000003, -0.00001, 0.0 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ -0.000671, 226.675781, -0.005859 ]
+																																		angles = [ 0.000005, -0.00001, 9.719975 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.006348, 343.092285, 0.064331 ]
+																																angles = [ -0.066056, 0.142151, 40.111507 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -155.009766, 0.645996, -755.101074 ]
+																														angles = [ 11.745357, -1.967359, -65.410042 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "r_pinky_00_0192"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "r_pinky_01_0193"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "r_pinky_02_0194"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "r_pinky_03_0195"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "r_pinky_03_0195_end"
+																																						origin = [ -0.000488, 151.886719, -0.000488 ]
+																																						angles = [ -0.000003, -0.000007, -0.00001 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ -0.001099, 151.884766, -0.013428 ]
+																																				angles = [ -0.000019, 0.000009, 14.338327 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.000244, 260.601074, -0.002197 ]
+																																		angles = [ -0.065856, 0.142151, 31.775076 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.025635, 499.118164, 0.038086 ]
+																																angles = [ -20.868895, -10.177052, 19.919136 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -163.516602, 6.294434, -193.327148 ]
+																														angles = [ 25.761951, -34.962475, -94.68808 ]
+																														do_not_discard = true
+																													},
+																													{
+																														_class = "Bone"
+																														name = "r_weapon_01_0196"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "r_weapon_01_0196_end"
+																																origin = [ -0.000366, 253.282715, 0.002441 ]
+																																angles = [ 0.00002, -0.000015, -0.000005 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ -180.688629, 267.448975, -978.899902 ]
+																														angles = [ -19.912666, 57.678802, 139.813263 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.027344, 2423.007812, 0.005371 ]
+																												angles = [ -78.679306, 152.532242, -56.361008 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.020264, 2535.643555, 0.01001 ]
+																										angles = [ -0.035637, -9.999853, 24.482759 ]
+																										do_not_discard = true
+																									},
+																									{
+																										_class = "Bone"
+																										name = "r_arm_roll_01_0197"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "r_arm_roll_01_0197_end"
+																												origin = [ -0.000244, 845.21875, -0.000244 ]
+																												angles = [ -0.000005, -0.000002, 0.000001 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.000244, 0.0, 0.0 ]
+																										angles = [ 10.67569, 0.00007, -0.000282 ]
+																										do_not_discard = true
+																									},
+																									{
+																										_class = "Bone"
+																										name = "r_arm_roll_02_0198"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "r_arm_roll_02_0198_end"
+																												origin = [ 0.0, 845.21875, 0.000977 ]
+																												angles = [ -0.000007, -0.000002, 0.000002 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.007568, 845.214844, 0.001709 ]
+																										angles = [ 5.328337, 0.000567, -0.000096 ]
+																										do_not_discard = true
+																									},
+																									{
+																										_class = "Bone"
+																										name = "r_arm_roll_03_0199"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "r_arm_roll_03_0199_end"
+																												origin = [ -0.000488, 845.213867, 0.00293 ]
+																												angles = [ -0.000005, -0.000002, 0.000002 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.016357, 1690.433594, 0.003662 ]
+																										angles = [ 0.000504, 0.000106, 0.000028 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.001343, -0.008789, -1427.432495 ]
+																								angles = [ 57.377552, -27.042585, -31.733776 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "r_shoulder_roll_01_00"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "r_shoulder_roll_01_00_end"
+																										origin = [ -0.002075, 1427.428711, -0.002441 ]
+																										angles = [ -0.000003, 0.0, -0.000001 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.019165, 0.030273, 0.006592 ]
+																								angles = [ -0.000036, 2.135106, -0.000003 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -296.395142, -2191.03125, -421.246704 ]
+																						angles = [ 72.483536, 146.601028, 155.043625 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "toggle_03_0200"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "toggle_03_0200_end"
+																								origin = [ 0.000122, 2061.097656, -0.000366 ]
+																								angles = [ -0.000002, -0.0, -0.0 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 1024.831909, -113.503906, -1135.96106 ]
+																						angles = [ 0.000268, 0.000059, 6.453529 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_l_01_0201"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_l_02_0202"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_l_02_0202_end"
+																										origin = [ 0.000488, 362.696777, -0.000977 ]
+																										angles = [ 0.000011, -0.000002, -0.000005 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000977, 362.697266, -0.001953 ]
+																								angles = [ -0.725393, -5.064479, -0.414302 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -106.595261, -1802.426758, -1049.159302 ]
+																						angles = [ 26.29674, 33.440865, -23.406467 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_k_01_0203"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_k_02_0204"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_k_02_0204_end"
+																										origin = [ 0.000488, 471.613281, 0.000977 ]
+																										angles = [ -0.0, -0.000008, 0.000003 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.00293, 471.614746, 0.0 ]
+																								angles = [ 3.207245, -12.247242, 1.807015 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -401.608765, -2178.84668, -977.21106 ]
+																						angles = [ 33.745087, 57.474907, -11.57294 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_j_01_0185"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_j_02_0206"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_j_02_0206_end"
+																										origin = [ 0.002441, 500.001953, 0.000977 ]
+																										angles = [ 0.000005, -0.000007, -0.000002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.00293, 499.998535, -0.003906 ]
+																								angles = [ 2.043087, -14.226046, 3.480317 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -696.527161, -2650.275391, -771.327026 ]
+																						angles = [ 44.101532, 64.576096, -3.799353 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_i_01_0207"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_i_02_0208"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_i_02_0208_end"
+																										origin = [ 0.000427, 500.0, -0.000977 ]
+																										angles = [ -0.000002, -0.000003, -0.000002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000977, 500.000732, -0.001953 ]
+																								angles = [ 8.42288, -14.490617, 6.325826 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -788.254456, -2983.597656, -426.247314 ]
+																						angles = [ 73.971077, 109.968346, 40.271751 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_h_01_0209"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_h_02_0210"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_h_02_0210_end"
+																										origin = [ 0.0, 453.919922, 0.003906 ]
+																										angles = [ -0.0, 0.0, -0.000001 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.001465, 453.92334, 0.000977 ]
+																								angles = [ 13.839419, -17.250179, 4.351754 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -645.154724, -3054.740234, -83.607544 ]
+																						angles = [ 48.840748, -156.905472, 141.204239 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_g_01_0211"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_g_02_0212"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_g_03_0213"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "shoulderFur_g_03_0213_end"
+																												origin = [ -0.000488, 403.370117, 0.000488 ]
+																												angles = [ -0.0, -0.000002, -0.000005 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.0, 403.374023, 0.001465 ]
+																										angles = [ 5.197659, -4.452483, 5.125991 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000488, 403.882812, 0.002441 ]
+																								angles = [ 4.647264, -5.345741, 7.095179 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -330.000977, -3005.616211, 189.665161 ]
+																						angles = [ 15.140579, -171.593567, 147.955429 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_f_01_0214"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_f_02_0215"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_f_03_0216"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "shoulderFur_f_03_0216_end"
+																												origin = [ 0.000046, 653.28418, -0.000732 ]
+																												angles = [ 0.000003, -0.000001, 0.000001 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.000122, 653.282227, -0.000732 ]
+																										angles = [ 1.167922, -7.585852, 3.648597 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.0, 651.749023, 0.000977 ]
+																								angles = [ 0.654929, -7.998739, 10.439553 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 159.613632, -3006.722656, 312.796875 ]
+																						angles = [ -8.993574, 167.572586, 156.009491 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_e_01_0217"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_e_02_0218"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_e_03_01"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "shoulderFur_e_03_01_end"
+																												origin = [ 0.0, 543.595703, 0.0 ]
+																												angles = [ -0.000007, -0.000007, -0.000005 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.000977, 543.596191, 0.0 ]
+																										angles = [ -8.798697, -15.523479, 14.15055 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000488, 543.677734, -0.004883 ]
+																								angles = [ -10.77937, -0.927127, 8.148724 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 534.57019, -3060.501953, 156.775269 ]
+																						angles = [ -56.967407, 149.084412, 150.361389 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_d_01_02"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_d_02_03"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_d_02_03_end"
+																										origin = [ -0.000305, 527.945557, 0.0 ]
+																										angles = [ 0.000002, 0.0, -0.000002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.0, 527.944824, 0.00293 ]
+																								angles = [ -6.417697, 1.998073, 3.068976 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 793.249023, -3089.692383, -192.996582 ]
+																						angles = [ -81.167931, -79.829857, 8.069029 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_c_01_0219"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_c_02_0220"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_c_02_0220_end"
+																										origin = [ -0.000977, 448.162109, 0.00293 ]
+																										angles = [ 0.000001, -0.000003, -0.000003 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.001465, 448.165039, 0.003906 ]
+																								angles = [ 0.87875, 4.807367, 3.867739 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 805.331787, -2845.140625, -556.943848 ]
+																						angles = [ -38.21809, -45.551025, -19.390633 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_b_01_0221"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_b_02_0205"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_b_02_0205_end"
+																										origin = [ -0.001953, 454.897461, 0.004883 ]
+																										angles = [ -0.000001, 0.000003, -0.000004 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.002441, 454.894531, 0.000977 ]
+																								angles = [ -3.164344, 4.976863, 1.661705 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 549.397034, -2264.573242, -946.364624 ]
+																						angles = [ -20.46699, -25.346361, -26.850155 ]
+																						do_not_discard = true
+																					},
+																					{
+																						_class = "Bone"
+																						name = "shoulderFur_a_01_0223"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "shoulderFur_a_02_0224"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "shoulderFur_a_02_0224_end"
+																										origin = [ 0.000244, 368.480469, -0.001953 ]
+																										angles = [ 0.000002, 0.0, -0.000005 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ 0.000488, 368.480469, 0.0 ]
+																								angles = [ 0.803171, 1.960261, 0.308018 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 34.705429, -1765.094727, -1063.667847 ]
+																						angles = [ 4.217024, 10.408305, -31.993067 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ 0.004807, -739.054688, 0.000122 ]
+																				angles = [ -0.071813, -0.368501, -2.238361 ]
+																				do_not_discard = true
+																			},
+																			{
+																				_class = "Bone"
+																				name = "toggle_02_0225"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "toggle_02_0225_end"
+																						origin = [ 0.000244, 739.053711, -0.000366 ]
+																						angles = [ -0.0, 0.0, 0.000001 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ 883.946777, -344.4375, -929.109131 ]
+																				angles = [ 0.000256, 0.00004, 2.36403 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.000003, -739.055664, 0.000031 ]
+																		angles = [ -0.156555, -0.860153, -1.371052 ]
+																		do_not_discard = true
+																	},
+																	{
+																		_class = "Bone"
+																		name = "toggle_01_0226"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "toggle_01_0226_end"
+																				origin = [ 0.000244, 739.053711, -0.000366 ]
+																				angles = [ -0.0, 0.0, -0.0 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 871.570007, -412.967773, -871.65033 ]
+																		angles = [ 0.00027, 0.000023, -1.725475 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.0, 739.054688, 0.000198 ]
+																angles = [ -0.017337, -0.899036, 176.822189 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 0.000031, 0.009766, 0.010132 ]
+														angles = [ 0.176952, -1.682545, 6.696433 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.000092, 0.000977, -0.008301 ]
+												angles = [ -0.000273, 0.000003, -179.999924 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "opponent_0227"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "opponent_0227_end"
+														origin = [ 0.0, 1003.532288, 0.000183 ]
+														angles = [ -0.000003, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -0.000092, 9326.320312, 0.003723 ]
+												angles = [ -0.000003, -0.0, 0.000022 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_13_0228"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_13_0228_end"
+														origin = [ 0.000122, 1003.527344, -0.000488 ]
+														angles = [ -0.000002, 0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -87.018036, -186.373047, -1204.279541 ]
+												angles = [ -0.000002, 0.000006, 0.000019 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_12_0229"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_12_0229_end"
+														origin = [ -0.000122, 1003.532227, 0.0 ]
+														angles = [ -0.000003, -0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -751.064819, -278.623047, -1108.367432 ]
+												angles = [ -0.000002, -0.0, 0.000032 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_11_0230"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_11_0230_end"
+														origin = [ -0.000122, 1003.530273, -0.000244 ]
+														angles = [ -0.000002, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -1373.442993, -393.350586, -796.540283 ]
+												angles = [ -0.000031, -0.000001, 0.000035 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_10_0231"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "mirror_0232"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "mirror_0232_end"
+																origin = [ -0.000183, 66.487305, -0.001953 ]
+																angles = [ -0.000006, 0.000007, -0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -22.065063, 60.908203, 14.96875 ]
+														angles = [ 2.303444, 171.971115, 168.757431 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -1612.811768, -475.642578, -185.637451 ]
+												angles = [ -89.999947, 89.999886, 0.0 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_09_0233"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "newMirror_0234"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "newMirror_0234_end"
+																origin = [ -0.000183, 236.771973, -0.00293 ]
+																angles = [ 0.000009, -0.000009, -0.000005 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -141.639221, 179.599976, 61.180664 ]
+														angles = [ 1.228616, 157.789032, 172.023499 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -1395.291016, -477.875, 479.43573 ]
+												angles = [ -89.999969, 90.000107, 0.0 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_08_0235"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_08_0235_end"
+														origin = [ -0.000153, 1003.53125, 0.000015 ]
+														angles = [ -0.000002, 0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -810.524414, -426.966797, 908.448914 ]
+												angles = [ -0.000002, 0.000006, 0.00002 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_07_0236"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_07_0236_end"
+														origin = [ -0.000031, 1003.532227, -0.000015 ]
+														angles = [ -0.000002, 0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -116.354218, -327.696289, 1060.446533 ]
+												angles = [ -0.000002, 0.000006, 0.000015 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_06_0237"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_06_0237_end"
+														origin = [ -0.000366, 1003.53125, -0.000031 ]
+														angles = [ -0.000003, -0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 588.455933, -230.660156, 1039.723145 ]
+												angles = [ -0.000003, 0.0, 0.000027 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_05_0238"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "headbag_0239"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "headbag_0239_end"
+																origin = [ -0.000244, 197.3125, 0.000122 ]
+																angles = [ -0.000002, -0.000001, -0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -83.406372, 48.926758, 171.995422 ]
+														angles = [ 54.670044, 147.80217, -28.373281 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "headbag_dangle_0240"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "headbag_dangle_0240_end"
+																origin = [ -0.000488, 197.316406, 0.000305 ]
+																angles = [ -0.000003, 0.000001, 0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -120.634644, 173.283203, 241.291748 ]
+														angles = [ 62.504715, 148.498383, -38.298073 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1228.978882, -136.484375, 807.844055 ]
+												angles = [ -0.000031, 0.000006, -0.000021 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_04_0241"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_04_0241_end"
+														origin = [ 0.000244, 1003.532227, 0.000061 ]
+														angles = [ -0.000002, -0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1624.350586, -90.367188, 226.527039 ]
+												angles = [ -0.000015, -0.000001, 0.00003 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_03_0222"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_03_0222_end"
+														origin = [ 0.000488, 1003.53125, 0.000122 ]
+														angles = [ -0.000003, -0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1648.3479, -52.461914, -441.446899 ]
+												angles = [ 0.000026, -0.000019, 0.000028 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_02_0243"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_main_02_0243_end"
+														origin = [ 0.000244, 1003.52832, -0.000366 ]
+														angles = [ -0.0, -0.0, -0.000001 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1230.746582, -68.413086, -920.089233 ]
+												angles = [ -0.000032, -0.000013, 0.000027 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_main_01_0244"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_dangle_f_01_0245"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "belt_dangle_f_02_0246"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "belt_dangle_f_03_0247"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "belt_dangle_f_03_0247_end"
+																				origin = [ -0.000488, 426.992676, 0.000137 ]
+																				angles = [ -0.000003, 0.000005, -0.000007 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.000732, 426.996094, -0.000488 ]
+																		angles = [ 0.00002, -0.000028, -2.850974 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -0.000244, 427.875, 0.005249 ]
+																angles = [ -0.000041, 0.000033, -7.067594 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -41.282959, 342.888916, -273.663086 ]
+														angles = [ -3.839232, 10.170348, -77.938881 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 579.547363, -119.095703, -1159.419922 ]
+												angles = [ -89.999969, 90.000114, 0.0 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "r_dress_lower_back_01_0248"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "r_dress_lower_back_02_0249"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_dress_lower_back_03_0250"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_dress_lower_back_04_0251"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "r_dress_lower_back_05_0252"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "r_dress_lower_back_06_0253"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "r_dress_lower_back_07_0254"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "r_dress_lower_back_08_0255"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "r_dress_lower_back_08_0255_end"
+																												origin = [ 0.0, 1003.529785, 0.0 ]
+																												angles = [ -0.000003, -0.0, 0.000001 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.000122, 400.000488, 0.000153 ]
+																										angles = [ -0.000046, 0.095992, -0.003974 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000671, 399.999023, 0.000366 ]
+																								angles = [ -0.000027, 0.091026, -0.003774 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 0.000305, 400.003906, -0.000366 ]
+																						angles = [ -0.000009, 0.086202, -0.003682 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ 0.000366, 399.99707, 0.000366 ]
+																				angles = [ -0.00001, 0.082021, -0.003314 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.000244, 399.991211, -0.000366 ]
+																		angles = [ 0.000002, 0.078104, -0.003372 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -0.002808, 400.040039, 0.002472 ]
+																angles = [ -0.000003, 0.074933, -0.002657 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 0.001221, 399.991211, -0.000641 ]
+														angles = [ -0.000012, 0.068582, 0.004461 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -708.171997, -1099.777344, -100.449219 ]
+												angles = [ 0.136534, -175.626083, 176.327057 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "l_dress_lower_back_01_0256"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "l_dress_lower_back_02_0257"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_dress_lower_back_03_0258"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_dress_lower_back_04_0259"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "l_dress_lower_back_05_0260"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "l_dress_lower_back_06_0261"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "l_dress_lower_back_07_0242"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "l_dress_lower_back_08_0263"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "l_dress_lower_back_08_0263_end"
+																												origin = [ 0.0, 1003.532715, 0.000061 ]
+																												angles = [ 0.000003, 0.0, 0.0 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.000122, -400.000977, 0.0 ]
+																										angles = [ 0.000007, 0.096021, -0.003874 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.000122, -400.001465, -0.000031 ]
+																								angles = [ -0.0, 0.090941, -0.003673 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 0.000122, -400.000977, 0.000061 ]
+																						angles = [ -0.000007, 0.086292, -0.003479 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ -0.000244, -400.0, 0.000031 ]
+																				angles = [ -0.000003, 0.082028, -0.003316 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.0, -400.000977, 0.000031 ]
+																		angles = [ 0.000012, 0.078103, -0.00315 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.000244, -399.998047, -0.000061 ]
+																angles = [ 0.000012, 0.074483, -0.003006 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 0.000244, -400.003906, -0.000153 ]
+														angles = [ 0.000024, 0.071133, -0.002874 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 708.172485, -1099.628906, -100.401978 ]
+												angles = [ -0.136643, 175.623993, -3.665303 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "r_dress_lower_01_0264"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "r_dress_lower_02_0265"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_dress_lower_03_0266"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_dress_lower_04_0267"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "r_dress_lower_05_0268"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "r_dress_lower_06_0269"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "r_dress_lower_06_0269_end"
+																								origin = [ -0.001465, 8872.34668, 0.003601 ]
+																								angles = [ -0.000003, 0.0, 0.000001 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 0.010681, 400.014648, 0.020203 ]
+																						angles = [ 0.000027, 0.086244, -0.003919 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ 0.000122, 400.00293, 0.000336 ]
+																				angles = [ -0.000058, 0.082047, -0.003637 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.000244, 399.992188, -0.000641 ]
+																		angles = [ 0.000012, 0.078106, -0.003677 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -0.00293, 400.041992, 0.002808 ]
+																angles = [ -0.000005, 0.074973, -0.00292 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 0.022705, -399.977539, -0.020081 ]
+														angles = [ 0.000613, -0.073064, 179.985168 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -708.171997, -1099.68457, -100.432129 ]
+												angles = [ 0.136833, -175.621475, -3.651265 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "l_dress_lower_01_0270"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "l_dress_lower_02_0271"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_dress_lower_03_0272"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_dress_lower_04_0273"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "l_dress_lower_05_0274"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "l_dress_lower_06_0275"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "l_dress_lower_06_0275_end"
+																								origin = [ 0.001465, 8872.474609, -0.002655 ]
+																								angles = [ -0.000005, 0.0, 0.000002 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -0.019409, 400.014648, 0.018982 ]
+																						angles = [ -0.000743, -0.086252, -0.003591 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ 0.000488, 400.0, -0.000214 ]
+																				angles = [ 0.000043, -0.082025, -0.003461 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ -0.000366, 400.0, 0.000031 ]
+																		angles = [ -0.000017, -0.078119, -0.003308 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.0, 400.0, 0.0 ]
+																angles = [ -0.000038, -0.074498, -0.003123 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -0.020386, 400.008789, -0.021454 ]
+														angles = [ -0.000604, -0.071239, -0.00295 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 708.172363, -1099.783203, -100.478027 ]
+												angles = [ -0.136589, 175.623901, 176.335999 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_secondary_01_0276"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_secondary_01_0276_end"
+														origin = [ 0.0, 1003.529297, -0.001953 ]
+														angles = [ -0.000003, -0.000007, 0.000007 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1728.459961, 787.789062, 763.159119 ]
+												angles = [ 46.795372, 7.200343, 103.601852 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_secondary_02_0277"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_secondary_02_0277_end"
+														origin = [ 0.000122, 1003.528809, -0.001953 ]
+														angles = [ 0.000002, -0.000003, 0.000003 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1004.493896, 754.462891, 1260.039185 ]
+												angles = [ 19.319462, 5.717572, 99.148979 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_secondary_03_0278"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_secondary_03_0278_end"
+														origin = [ -0.000244, 1003.529419, -0.000977 ]
+														angles = [ 0.000001, 0.000005, -0.000003 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 304.559662, 630.489258, 1339.656982 ]
+												angles = [ -2.084053, 11.949095, 94.73793 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_secondary_04_0279"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_secondary_04_0279_end"
+														origin = [ -0.000244, 1003.530151, 0.0 ]
+														angles = [ 0.000003, 0.000002, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -308.501373, 465.75, 1322.736816 ]
+												angles = [ -0.952159, 18.140818, 93.780418 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "belt_secondary_05_0280"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "belt_dangle_01_0281"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "belt_dangle_02_0262"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "belt_dangle_02_0262_end"
+																		origin = [ -0.000244, 318.170898, 0.000061 ]
+																		angles = [ -0.000004, 0.000004, 0.000002 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -0.000732, 318.165527, -0.000305 ]
+																angles = [ -0.000027, 0.000004, 0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 87.673584, 109.96875, -11.91626 ]
+														angles = [ -86.410973, 112.168175, -97.572426 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -1018.680908, 128.5625, 1145.401123 ]
+												angles = [ 29.21373, -160.380234, 174.878326 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ -0.0, 9326.318359, 0.001223 ]
+										angles = [ -27.021727, 3.028395, 172.706375 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "ik_root_0282"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "ik_feet_0283"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "r_foot_PV_0284"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_foot_PV_0284_end"
+																origin = [ -0.000244, 9326.314453, 0.000153 ]
+																angles = [ 0.000003, 0.0, 0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -1091.646606, 4613.671387, -275.275482 ]
+														angles = [ 11.230501, -178.94075, 176.066605 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "r_foot_ik_0285"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_foot_ik_0285_end"
+																origin = [ -0.000122, 9326.316406, -0.000244 ]
+																angles = [ 0.0, -0.000004, 0.000012 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -1288.153687, 855.684998, -487.61438 ]
+														angles = [ 12.416563, 179.793442, -114.749557 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "l_foot_PV_0286"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_foot_PV_0286_end"
+																origin = [ 0.0, 9326.319336, 0.001587 ]
+																angles = [ 0.000004, 0.0, 0.000001 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 1091.649902, 4613.67334, -275.275543 ]
+														angles = [ -11.230508, 178.94075, -3.933387 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "l_foot_ik_0287"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_foot_ik_0287_end"
+																origin = [ -0.000732, 9326.313477, 0.004639 ]
+																angles = [ -0.0, -0.000004, 0.000009 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 1288.14978, 855.685486, -487.614502 ]
+														angles = [ -12.41656, -179.793442, 65.250389 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -0.0, 0.0, -0.0 ]
+												angles = [ 0.0, -0.0, 0.0 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "ik_weapon_0288"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "r_weapon_ik_0289"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "r_weapon_r_wrist_ik_0290"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_weapon_r_wrist_ik_0290_end"
+																		origin = [ 0.0, 9326.31543, -0.000061 ]
+																		angles = [ 0.0, -0.0, 0.0 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 748.519043, 675.40332, -214.382507 ]
+																angles = [ 0.0, -0.0, 0.0 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "r_weapon_l_wrist_ik_0291"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "r_weapon_l_wrist_ik_0291_end"
+																		origin = [ 0.0, 9326.314453, -0.000061 ]
+																		angles = [ 0.0, -0.0, 0.0 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 11310.688477, 675.457031, -214.432404 ]
+																angles = [ 0.0, -0.0, 0.0 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -6029.599609, 10370.201172, 662.762024 ]
+														angles = [ 0.0, -0.0, 0.0 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "l_weapon_ik_0292"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "l_weapon_r_wrist_ik_0293"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_weapon_r_wrist_ik_0293_end"
+																		origin = [ -0.000061, 9326.310547, 0.0 ]
+																		angles = [ -0.000007, 0.0, -0.0 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 675.44043, 11310.685547, -214.325531 ]
+																angles = [ -89.269379, -94.073212, -85.198677 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "l_weapon_l_wrist_ik_0294"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "l_weapon_l_wrist_ik_0294_end"
+																		origin = [ -0.000031, 9326.316406, 0.0 ]
+																		angles = [ -0.000011, 0.0, -0.0 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 675.491211, 748.520508, -214.375793 ]
+																angles = [ 89.269936, -85.927658, 94.801559 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 6029.61084, 10370.166016, 662.706238 ]
+														angles = [ -0.000009, 90.000023, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -0.0, 0.0, -0.0 ]
+												angles = [ 0.0, -0.0, 0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ -0.0, 0.0, -0.000001 ]
+										angles = [ -0.0, -0.0, 0.000008 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ -0.0, 0.0, -0.0 ]
+								angles = [ 0.000005, -0.000005, 89.999992 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.000005, 0.0, -0.000005 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "Senua"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						enable_scale = false
+						source_filename = "models/senua/assets/models/senua.fbx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						take = 0
+						reverse = false
+					},
+				]
+				default_root_bone_name = "ik_root_0282"
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "prop_dynamic"
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
