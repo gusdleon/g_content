@@ -1,0 +1,215 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/escultura_letras_frontal/assets/models/2020_escultura_frontal_letras_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "aluminio.vmat"
+								to = "materials/generic/metal_brushed.vmat"
+							},
+							{
+								from = "concreto.vmat"
+								to = "materials/hotspot/concrete_hs_01a.vmat"
+							},
+							{
+								from = "lights.vmat"
+								to = "materials/dev/primary_white_emissive.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "Boxes"
+						children = 
+						[
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "concrete"
+								collision_tags = "solid"
+								origin = [ 0.000013, -0.122074, 12.472207 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 146.662354, 195.047363, 24.732031 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -24.012056, -75.68924, 52.397823 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 11.826424, 9.589014, 55.197624 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.958344, -49.67041, 88.302979 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 11.933865, 15.781715, 93.04686 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.958338, -15.768368, 86.988945 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 11.933861, 16.30732, 90.418808 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.95834, 49.933254, 86.988945 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 11.933868, 15.256081, 90.418808 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -24.01206, 78.053543, 88.040169 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 12.041298, 15.781704, 92.521255 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.948891, 107.750687, 125.621483 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 12.005021, 43.639202, 17.358597 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.8375, 104.071396, 85.937706 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 12.227795, 36.280609, 18.935455 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.948891, 108.539108, 47.830772 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 12.450582, 45.216034, 12.102492 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -24.171671, -96.975609, 128.512375 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 12.005032, 43.113632, 12.628083 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.948893, -102.494545, 87.777359 ]
+								angles = [ 0.0, 0.0, 0.0 ]
+								dimensions = [ 12.00502, 32.07576, 12.102434 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.8375, 31.369978, 94.886147 ]
+								angles = [ 0.0, 0.0, -24.0 ]
+								dimensions = [ 11.782234, 13.904769, 76.382042 ]
+							},
+							{
+								_class = "PhysicsShapeBox"
+								parent_bone = ""
+								surface_prop = "default"
+								collision_tags = "solid"
+								origin = [ -23.792059, 2.734275, 94.927956 ]
+								angles = [ 0.0, 0.0, 24.0 ]
+								dimensions = [ 11.691351, 13.475177, 76.742096 ]
+							},
+						]
+						disabled = true
+					},
+					{
+						_class = "PhysicsMeshFile"
+						name = "2020_Escultura_Frontal_Letras_Fime"
+						parent_bone = ""
+						surface_prop = "concrete"
+						collision_tags = "solid"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/escultura_letras_frontal/assets/models/2020_escultura_frontal_letras_fime.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
