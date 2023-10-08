@@ -1,0 +1,25 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Fuente escultura materiales FIME",
+      "Type": "model",
+      "Org": "gusdleon",
+      "Ident": "escultura_materiales_fime",
+      "Tags": "fountain sculpture",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Metadata": {
+        "SingleAssetSource": "models/escultura_materiales_fime/escultura_materiales_fime.vmdl"
+      }
+    }
+  }
+}
