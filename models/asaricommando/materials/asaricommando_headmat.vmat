@@ -11,12 +11,12 @@ Layer0
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "src_media/materials/asaricommando/body/t_asaricommando_body_ao.png"
+	TextureAmbientOcclusion "models/asaricommando/assets/textures/head/t_asaricommando_head_ao.png"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "src_media/materials/asaricommando/body/t_asaricommando_body_albedo.png"
+	TextureColor "models/asaricommando/assets/textures/head/t_asaricommando_head_albedo.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -25,14 +25,14 @@ Layer0
 	g_bFogEnabled "1"
 
 	//---- Metalness ----
-	TextureMetalness "src_media/materials/asaricommando/body/t_asaricommando_body_metallic.png"
+	TextureMetalness "models/asaricommando/assets/textures/head/t_asaricommando_head_metallic.png"
 
 	//---- Normal ----
-	TextureNormal "src_media/materials/asaricommando/body/t_asaricommando_body_normal.png"
+	TextureNormal "models/asaricommando/assets/textures/head/t_asaricommando_head_normal.png"
 
 	//---- Roughness ----
 	g_flRoughnessScaleFactor "1.000"
-	TextureRoughness "src_media/materials/asaricommando/body/t_asaricommando_body_roughness.png"
+	TextureRoughness "models/asaricommando/assets/textures/head/t_asaricommando_head_roughness.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

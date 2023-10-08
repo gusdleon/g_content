@@ -15,15 +15,15 @@
 						[
 							{
 								from = "asaricommando_bodymat.vmat"
-								to = "materials/asaricommando/asaricommando_bodymat.vmat"
+								to = "models/asaricommando/materials/asaricommando_bodymat.vmat"
 							},
 							{
 								from = "asaricommando_eyemat.vmat"
-								to = "materials/asaricommando/asaricommando_eyemat.vmat"
+								to = "models/asaricommando/materials/asaricommando_eyemat.vmat"
 							},
 							{
 								from = "asaricommando_headmat.vmat"
-								to = "materials/asaricommando/asaricommando_headmat.vmat"
+								to = "models/asaricommando/materials/asaricommando_headmat.vmat"
 							},
 						]
 						use_global_default = false
@@ -37,7 +37,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "src_media/models/asaricommando/dancing twerk.fbx"
+						filename = "models/asaricommando/assets/models/dancing twerk.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 0.39371
@@ -54,7 +54,7 @@
 					{
 						_class = "RenderMeshFile"
 						disabled = true
-						filename = "src_media/models/asaricommando/asaricommando_model_fbx.fbx"
+						filename = "models/asaricommando/assets/models/asaricommando_model_fbx.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 0.3937
@@ -88,7 +88,8 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = true
-						source_filename = "src_media/models/asaricommando/dancing twerk anim.fbx"
+						enable_scale = false
+						source_filename = "models/asaricommando/assets/models/dancing twerk anim.fbx"
 						start_frame = -1
 						end_frame = 911
 						framerate = -1.0
@@ -109,6 +110,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
+						enable_scale = false
 						frame_count = 1
 						frame_rate = 30
 					},

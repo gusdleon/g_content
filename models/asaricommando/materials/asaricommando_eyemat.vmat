@@ -10,7 +10,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "src_media/materials/asaricommando/eye/t_asaricommando_eyes_albedo.png"
+	TextureColor "models/asaricommando/assets/textures/eye/t_asaricommando_eyes_albedo.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -22,9 +22,9 @@ Layer0
 	g_flIrisBumpStrength "1.000"
 	g_flParallaxStrength "0.050"
 	g_vIrisAutoexposureRange "[0.000 0.000]"
-	IrisNormal "src_media/materials/asaricommando/eye/t_asaricommando_eyes_normal.png"
+	IrisNormal "models/asaricommando/assets/textures/eye/t_asaricommando_eyes_normal.png"
 	IrisRoughness "materials/default/default_rough.tga"
-	TextureIrisMask "src_media/materials/asaricommando/eye/t_asaricommando_eyes_roughness.png"
+	TextureIrisMask "models/asaricommando/assets/textures/eye/t_asaricommando_eyes_roughness.png"
 
 	//---- Lighting ----
 	g_vReflectanceRange "[0.000 1.000]"
@@ -34,7 +34,7 @@ Layer0
 	g_flCorneaScleraBumpStrength "1.000"
 	g_flScleraDiffuseExponent "1.500"
 	g_flScleraDiffuseWrap "0.300"
-	TextureNormal "src_media/materials/asaricommando/eye/t_asaricommando_eyes_normal.png"
+	TextureNormal "models/asaricommando/assets/textures/eye/t_asaricommando_eyes_normal.png"
 
 	//---- Occlusion ----
 	g_flOcclusionStrength "0.750"
