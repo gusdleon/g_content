@@ -14,8 +14,8 @@
 						name = "LOD0"
 						filename = "models/escultura_materiales_fime/assets/models/2020_escultura_materiales_fime.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 90.0, 0.0 ]
-						import_scale = 1.0
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
@@ -146,8 +146,8 @@
 								to = "models/escultura_materiales_fime/materials/fuente_gris.vmat"
 							},
 						]
-						use_global_default = false
-						global_default_material = ""
+						use_global_default = true
+						global_default_material = "models/escultura_materiales_fime/materials/fuente.vmat"
 					},
 				]
 			},
