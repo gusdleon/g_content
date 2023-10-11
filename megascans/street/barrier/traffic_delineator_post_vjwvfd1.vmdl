@@ -130,9 +130,9 @@
 						parent_bone = ""
 						surface_prop = "rubber"
 						collision_tags = "solid"
-						radius = 8.0
-						point0 = [ 0.0, 0.0, 0.0 ]
-						point1 = [ 0.0, 0.0, 1.3 ]
+						radius = 8.51
+						point0 = [ 0.0, 0.0, -0.248929 ]
+						point1 = [ 0.0, 0.0, 1.475781 ]
 					},
 					{
 						_class = "PhysicsShapeCylinder"
