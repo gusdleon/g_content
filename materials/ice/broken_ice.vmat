@@ -4,9 +4,6 @@ Layer0
 {
 	shader "shaders/complex.shader"
 
-	//---- Animation ----
-	F_MORPH_SUPPORTED 1
-
 	//---- Normal ----
 	F_ENABLE_NORMAL_SELF_SHADOW 1
 
@@ -17,15 +14,12 @@ Layer0
 	F_SPECULAR_CUBE_MAP_ANISOTROPIC_WARP 1
 
 	//---- Rendering ----
-	F_HIGH_QUALITY_REFLECTIONS_LEGACY_LAYOUT 1
+	F_DYNAMIC_REFLECTIONS 1
 	F_PARALLAX_OCCLUSION 1
 
-	//---- Translucent ----
-	F_TRANSLUCENT 1
-
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
+	g_flAmbientOcclusionDirectDiffuse "1.000"
+	g_flAmbientOcclusionDirectSpecular "1.000"
 	TextureAmbientOcclusion "materials/ice/Stylized_17_Broken_Ice_ambientocclusion.jpg"
 
 	//---- Color ----
@@ -40,7 +34,7 @@ Layer0
 	g_bFogEnabled "1"
 
 	//---- Metalness ----
-	TextureMetalness "materials/ice/Stylized_17_Broken_Ice_metallic.jpg"
+	TextureMetalness "[0.000000 0.000000 0.000000 0.000000]"
 
 	//---- Normal ----
 	g_flLightRangeForSelfShadowNormals "0.707"
@@ -48,14 +42,14 @@ Layer0
 
 	//---- Parallax ----
 	g_flHeightMapScale "0.060"
-	g_nLODThreshold "12"
+	g_nLODThreshold "9"
 	g_nMaxSamples "128"
 	g_nMinSamples "64"
 	TextureHeight "materials/ice/stylized_17_broken_ice_height.jpg"
 
 	//---- Roughness ----
 	g_flRoughnessScaleFactor "1.000"
-	TextureRoughness "materials/ice/Stylized_17_Broken_Ice_roughness.jpg"
+	TextureRoughness "materials/ice/stylized_17_broken_ice_roughness.jpg"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -64,7 +58,10 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
-	//---- Translucent ----
-	g_flOpacityScale "1.000"
-	TextureTranslucency "[0.950000 0.950000 0.950000 0.000000]"
+	SystemAttributes
+	{
+		WorldMappingWidth "16"
+		WorldMappingHeight "16"
+		PhysicsSurfaceProperties "glass"
+	}
 }
