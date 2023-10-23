@@ -1,0 +1,31 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "asset_preview_perpixel",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "asset_preview_perpixel",
+      "Tags": null,
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "facepunch.metal_brushed#18749",
+        "facepunch.concrete_hs_01#28793",
+        "duccsoft.simple_mirror#16032",
+        "alex.world_portals#31701",
+        "facepunch.v_toolgun#33704"
+      ],
+      "Metadata": {
+        "SingleAssetSource": "maps/asset_preview_perpixel.vmap"
+      }
+    }
+  }
+}
