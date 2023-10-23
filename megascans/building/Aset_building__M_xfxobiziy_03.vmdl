@@ -121,16 +121,8 @@
 				children = 
 				[
 					{
-						_class = "PhysicsHullFromRender"
-						disabled = true
-						parent_bone = ""
-						surface_prop = "default"
-						collision_tags = "solid"
-						faceMergeAngle = 20.0
-						maxHullVertices = 32
-					},
-					{
-						_class = "PhysicsMeshFile"
+						_class = "PhysicsHullFile"
+						name = "xfxobiziy_CH"
 						parent_bone = ""
 						surface_prop = "concrete"
 						collision_tags = "solid"
@@ -140,20 +132,37 @@
 						align_origin_x_type = "BoundsCenter"
 						align_origin_y_type = "BoundsCenter"
 						align_origin_z_type = "BoundsMin"
-						filename = "megascans/building/assets/meshes/xfxobiziy_lod4.fbx"
-						import_scale = 0.3937
-						maxMeshVertices = 0
-						qemError = 0.0
+						filename = "megascans/building/assets/meshes/xfxobiziy_CH.fbx"
+						import_scale = 0.393701
+						faceMergeAngle = 5.0
+						maxHullVertices = 33
+						import_mode = "HullPerMesh"
+						optimization_algorithm = "QEM"
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = 
 							[
-								"Aset_building__M_xfxobiziy_00_LOD4",
-								"Aset_building__M_xfxobiziy_03_LOD4",
-								"Aset_building__M_xfxobiziy_02_LOD4",
+								"Aset_building__M_xfxobiziy_02_CH1",
+								"Aset_building__M_xfxobiziy_02_CH2",
 							]
 						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "undefined"
+						mass_override = 1500.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
 					},
 				]
 			},
