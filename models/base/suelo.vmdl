@@ -19,7 +19,7 @@
 							},
 						]
 						use_global_default = true
-						global_default_material = "materials/concrete_c_bld.vmat"
+						global_default_material = "materials/tools/hlmv_ground.vmat"
 					},
 				]
 			},
@@ -39,14 +39,18 @@
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
-						filename = "models/suelo/assets/models/2020_fime_gmaps_mapa.fbx"
+						filename = "models/base/assets/models/2020_fime_gmaps_mapa.fbx"
 						import_scale = 0.3937
 						maxMeshVertices = 0
 						qemError = 0.0
 						import_filter = 
 						{
 							exclude_by_default = false
-							exception_list = [  ]
+							exception_list = 
+							[
+								"base_gmaps",
+								"plano_detail_wob",
+							]
 						}
 					},
 				]
@@ -57,7 +61,8 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/suelo/assets/models/2020_fime_gmaps_mapa.fbx"
+						name = "basic"
+						filename = "models/base/assets/models/2020_fime_gmaps_mapa.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 0.3937
@@ -68,8 +73,91 @@
 						import_filter = 
 						{
 							exclude_by_default = false
-							exception_list = [  ]
+							exception_list = 
+							[
+								"base_gmaps",
+								"plano_detail_wob",
+							]
 						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "detail"
+						filename = "models/base/assets/models/2020_fime_gmaps_mapa.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"base_gmaps",
+								"plano_basic",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "basic_plus_detail"
+						filename = "models/base/assets/models/2020_fime_gmaps_mapa.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"base_gmaps",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "suelos"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "basic"
+								meshes = 
+								[
+									"basic",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "detail"
+								meshes = 
+								[
+									"detail",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "basic_plus_detail"
+								meshes = 
+								[
+									"basic_plus_detail",
+								]
+							},
+						]
+						hidden_in_tools = false
 					},
 				]
 			},
