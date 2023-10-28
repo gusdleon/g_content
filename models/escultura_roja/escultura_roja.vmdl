@@ -33,6 +33,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
+						name = "Escultura_Roja_Render"
 						filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
@@ -47,6 +48,7 @@
 							exception_list = 
 							[
 								"2020_Escultura_Roja_Fime_Mesh",
+								"2020_Escultura_Roja_Fime_Base_Mesh",
 							]
 						}
 					},
@@ -57,8 +59,8 @@
 				children = 
 				[
 					{
-						_class = "PhysicsMeshFile"
-						name = "2020_Escultura_Roja_Fime"
+						_class = "PhysicsHullFile"
+						name = "2020_Escultura_Roja_CH"
 						parent_bone = ""
 						surface_prop = "metal.sheet"
 						collision_tags = "solid"
@@ -70,28 +72,223 @@
 						align_origin_z_type = "None"
 						filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
 						import_scale = 0.3937
-						maxMeshVertices = 0
-						qemError = 0.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "Exact"
 						import_filter = 
 						{
 							exclude_by_default = false
-							exception_list = [  ]
+							exception_list = 
+							[
+								"2020_Escultura_Roja_Fime_Mesh",
+								"2020_Escultura_Roja_Fime_Mesh_Base_CH",
+								"2020_Escultura_Roja_Fime_Base_Mesh",
+								"2020_Escultura_Roja_Fime_Base_Mesh_CH",
+							]
 						}
 					},
 					{
-						_class = "PhysicsShapeBox"
+						_class = "PhysicsHullFile"
+						name = "2020_Escultura_Roja_Base_CH"
 						parent_bone = ""
 						surface_prop = "concrete"
 						collision_tags = "solid"
-						origin = [ 0.018314, 0.010344, 17.515223 ]
-						angles = [ 0.0, 46.0, 0.0 ]
-						dimensions = [ 27.937309, 27.977665, 35.320591 ]
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
+						import_scale = 0.3937
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "HullPerElement"
+						optimization_algorithm = "Exact"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Escultura_Roja_Fime_Mesh",
+								"2020_Escultura_Roja_Fime_Mesh_CH",
+								"2020_Escultura_Roja_Fime_Base_Mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceEmbedded"
+						name = "Escultura"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "Escultura_Roja_Render_BP"
+								filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 0.3937
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"2020_Escultura_Roja_Fime_Mesh",
+									]
+								}
+							},
+							{
+								_class = "PhysicsHullFile"
+								name = "2020_Escultura_Roja_CH_BP"
+								parent_bone = ""
+								surface_prop = "metal.sheet"
+								collision_tags = "solid"
+								recenter_on_parent_bone = false
+								offset_origin = [ 0.0, 0.0, 0.0 ]
+								offset_angles = [ 0.0, 0.0, 0.0 ]
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
+								import_scale = 0.3937
+								faceMergeAngle = 10.0
+								maxHullVertices = 0
+								import_mode = "HullPerElement"
+								optimization_algorithm = "Exact"
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"2020_Escultura_Roja_Fime_Mesh",
+										"2020_Escultura_Roja_Fime_Mesh_Base_CH",
+										"2020_Escultura_Roja_Fime_Base_Mesh",
+										"2020_Escultura_Roja_Fime_Base_Mesh_CH",
+									]
+								}
+							},
+						]
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = false
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 20.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = true
+						collision_tags = "debris"
+						manual_mode = false
+						surface_prop_override = ""
+					},
+					{
+						_class = "BreakPieceEmbedded"
+						name = "Base"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "2020_Escultura_Roja_Base_Render_CH"
+								filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
+								import_translation = [ 0.0, 0.0, 0.0 ]
+								import_rotation = [ 0.0, 0.0, 0.0 ]
+								import_scale = 0.3937
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								parent_bone = ""
+								import_filter = 
+								{
+									exclude_by_default = true
+									exception_list = 
+									[
+										"2020_Escultura_Roja_Fime_Base_Mesh",
+									]
+								}
+							},
+							{
+								_class = "PhysicsHullFile"
+								name = "2020_Escultura_Roja_Base_CH_BP"
+								disabled = true
+								parent_bone = ""
+								surface_prop = "concrete"
+								collision_tags = "solid"
+								recenter_on_parent_bone = false
+								offset_origin = [ 0.0, 0.0, 0.0 ]
+								offset_angles = [ 0.0, 0.0, 0.0 ]
+								align_origin_x_type = "None"
+								align_origin_y_type = "None"
+								align_origin_z_type = "None"
+								filename = "models/escultura_roja/assets/models/2020_escultura_roja_fime.fbx"
+								import_scale = 0.3937
+								faceMergeAngle = 10.0
+								maxHullVertices = 0
+								import_mode = "HullPerElement"
+								optimization_algorithm = "Exact"
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = 
+									[
+										"2020_Escultura_Roja_Fime_Mesh",
+										"2020_Escultura_Roja_Fime_Mesh_CH",
+										"2020_Escultura_Roja_Fime_Base_Mesh",
+									]
+								}
+							},
+						]
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = false
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 20.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = true
+						collision_tags = "debris"
+						manual_mode = false
+						surface_prop_override = "concrete"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							bakelighting = true
+							health = 10.0
+							min_impact_damage_speed = -1.0
+							impact_damage = -1.0
+							parent_bodygroup_name = ""
+							parent_bodygroup_value = 0
+						}
 					},
 				]
 			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
 		anim_graph_name = ""
 		base_model_name = ""
 	}
