@@ -121,6 +121,7 @@
 				[
 					{
 						_class = "BreakPieceEmbedded"
+						name = "gib_metal_pot_tapa"
 						children = 
 						[
 							{
@@ -169,6 +170,7 @@
 					},
 					{
 						_class = "BreakPieceEmbedded"
+						name = "gib_metal_pot_pot"
 						children = 
 						[
 							{
