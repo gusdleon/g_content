@@ -284,6 +284,20 @@
 							parent_bodygroup_value = 0
 						}
 					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_apply_force"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 128.0
+							burst_randomize = 10.0
+							forcetype = "0"
+						}
+					},
 				]
 			},
 		]

@@ -3,9 +3,9 @@
     "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
-      "Title": "escultura_roja",
+      "Title": "Red Sculpture",
       "Type": "model",
-      "Org": "local",
+      "Org": "gusdleon",
       "Ident": "escultura_roja",
       "Tags": null,
       "Schema": 0,
