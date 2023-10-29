@@ -125,7 +125,7 @@
 				[
 					{
 						_class = "BreakPieceEmbedded"
-						name = "Escultura"
+						name = "gib_escultura_escultura"
 						children = 
 						[
 							{
@@ -196,7 +196,7 @@
 					},
 					{
 						_class = "BreakPieceEmbedded"
-						name = "Base"
+						name = "gib_escultura_base"
 						children = 
 						[
 							{
