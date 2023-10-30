@@ -151,6 +151,7 @@
 							{
 								_class = "PhysicsHullFile"
 								name = "2020_Escultura_Roja_CH_BP"
+								disabled = true
 								parent_bone = ""
 								surface_prop = "metal.sheet"
 								collision_tags = "solid"
@@ -277,7 +278,7 @@
 						game_keys = 
 						{
 							bakelighting = true
-							health = 10.0
+							health = 30.0
 							min_impact_damage_speed = -1.0
 							impact_damage = -1.0
 							parent_bodygroup_name = ""
@@ -292,10 +293,10 @@
 							offset = [ 0.0, 0.0, 0.0 ]
 							attachment_point = ""
 							center_on_damage_point = false
-							limit_to_piece = ""
+							limit_to_piece = "gib_escultura_escultura"
 							burst_scale = 128.0
-							burst_randomize = 10.0
-							forcetype = "0"
+							burst_randomize = 30.0
+							forcetype = "2"
 						}
 					},
 				]
