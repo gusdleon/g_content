@@ -3,10 +3,10 @@
     "Allowed": true,
     "Enabled": false,
     "ProjectConfig": {
-      "Title": "fuente_materiales",
+      "Title": "letras",
       "Type": "map",
       "Org": "local",
-      "Ident": "fuente_materiales",
+      "Ident": "letras",
       "Tags": null,
       "Schema": 0,
       "HasAssets": false,
@@ -16,9 +16,12 @@
       "HasCode": false,
       "CodePath": null,
       "PackageReferences": [],
-      "EditorReferences": [],
+      "EditorReferences": [
+        "facepunch.concrete_hs_01#28793",
+        "facepunch.metal_brushed#18749"
+      ],
       "Metadata": {
-        "SingleAssetSource": "maps/prefabs/fuente_materiales.vmap"
+        "SingleAssetSource": "maps/prefabs/letras.vmap"
       }
     }
   }
