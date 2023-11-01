@@ -1,0 +1,1270 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Edificio"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								name = "1"
+								meshes = 
+								[
+									"Edificio_1",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "2"
+								meshes = 
+								[
+									"Edificio_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "3"
+								meshes = 
+								[
+									"Edificio_3",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "4"
+								meshes = 
+								[
+									"Edificio_4",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "5"
+								meshes = 
+								[
+									"Edificio_5",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "6"
+								meshes = 
+								[
+									"Edificio_6",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "7"
+								meshes = 
+								[
+									"Edificio_7",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "8"
+								meshes = 
+								[
+									"Edificio_8",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "9"
+								meshes = 
+								[
+									"Edificio_9",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "10"
+								meshes = 
+								[
+									"Edificio_10",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "11"
+								meshes = 
+								[
+									"Edificio_11",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "12"
+								meshes = 
+								[
+									"Edificio_12",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "13"
+								meshes = 
+								[
+									"Edificio_13",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "14"
+								meshes = 
+								[
+									"Edificio_14",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "15"
+								meshes = 
+								[
+									"Edificio_15",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "16"
+								meshes = 
+								[
+									"Edificio_16",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "17"
+								meshes = 
+								[
+									"Edificio_17",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "18"
+								meshes = 
+								[
+									"Edificio_18",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "19"
+								meshes = 
+								[
+									"Edificio_19",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "20"
+								meshes = 
+								[
+									"Edificio_20",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "21"
+								meshes = 
+								[
+									"Edificio_21",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "22"
+								meshes = 
+								[
+									"Edificio_22",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "23"
+								meshes = 
+								[
+									"Edificio_23",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								name = "24"
+								meshes = 
+								[
+									"Edificio_24",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "material_numeros.vmat"
+								to = "models/numeros_edificio/materials/numeros_edificio.vmat"
+							},
+							{
+								from = "placa_verde.vmat"
+								to = "materials/tools/toolsblocklight.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_1"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_2"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_3"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_4"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_5"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_6"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_7"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_8"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_9"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_10"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_11"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_12"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_13"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_14"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_15"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_16"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_17"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_18"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_19"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_20"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_21"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_22"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_23"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_24_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Edificio_24"
+						filename = "models/numeros_edificio/assets/meshes/2020_placas_numero_de_edificio_fime.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.3937
+						align_origin_x_type = "BoundsCenter"
+						align_origin_y_type = "BoundsCenter"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"2020_Placa_Numero_Edificio_3_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_4_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_23_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_22_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_21_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_20_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_19_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_18_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_17_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_16_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_15_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_14_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_13_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_12_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_11_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_10_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_9_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_8_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_7_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_6_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_5_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_1_Fime_Mesh",
+								"2020_Placa_Numero_Edificio_2_Fime_Mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "plastic.hueco"
+						collision_tags = "solid"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
+					},
+				]
+			},
+		]
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}

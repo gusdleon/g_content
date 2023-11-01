@@ -1,0 +1,25 @@
+{
+  "publish": {
+    "Allowed": true,
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Placas Numero de Edificio",
+      "Type": "model",
+      "Org": "gusdleon",
+      "Ident": "placas_numero_de_edificio_fime",
+      "Tags": "building number",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "Resources": null,
+      "MenuResources": null,
+      "HasCode": false,
+      "CodePath": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Metadata": {
+        "SingleAssetSource": "models/numeros_edificio/placas_numero_de_edificio_fime.vmdl"
+      }
+    }
+  }
+}
