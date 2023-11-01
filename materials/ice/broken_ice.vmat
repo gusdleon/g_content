@@ -19,12 +19,12 @@ Layer0
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "1.000"
 	g_flAmbientOcclusionDirectSpecular "1.000"
-	TextureAmbientOcclusion "materials/ice/Stylized_17_Broken_Ice_ambientocclusion.jpg"
+	TextureAmbientOcclusion "materials/ice/assets/textures/stylized_17_broken_ice_ambientocclusion.jpg"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/ice/Stylized_17_Broken_Ice_basecolor.jpg"
+	TextureColor "materials/ice/assets/textures/stylized_17_broken_ice_basecolor.jpg"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -37,18 +37,18 @@ Layer0
 
 	//---- Normal ----
 	g_flLightRangeForSelfShadowNormals "0.707"
-	TextureNormal "materials/ice/Stylized_17_Broken_Ice_normal.jpg"
+	TextureNormal "materials/ice/assets/textures/stylized_17_broken_ice_normal.jpg"
 
 	//---- Parallax ----
 	g_flHeightMapScale "0.060"
 	g_nLODThreshold "9"
 	g_nMaxSamples "128"
 	g_nMinSamples "64"
-	TextureHeight "materials/ice/stylized_17_broken_ice_height.jpg"
+	TextureHeight "materials/ice/assets/textures/stylized_17_broken_ice_height.jpg"
 
 	//---- Roughness ----
 	g_flRoughnessScaleFactor "1.000"
-	TextureRoughness "materials/ice/stylized_17_broken_ice_roughness.jpg"
+	TextureRoughness "materials/ice/assets/textures/stylized_17_broken_ice_roughness.jpg"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
