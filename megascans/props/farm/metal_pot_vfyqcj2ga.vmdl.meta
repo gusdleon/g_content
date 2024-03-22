@@ -3,21 +3,22 @@
     "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
-      "Title": "broken ice",
-      "Type": "material",
+      "Title": "Metal Pot",
+      "Type": "model",
       "Org": "gusdleon",
-      "Ident": "broken_ice",
+      "Ident": "metal_pot_vfyqcj2ga",
       "Tags": null,
       "Schema": 0,
       "HasAssets": false,
       "AssetsPath": null,
       "Resources": null,
+      "MenuResources": "*",
       "HasCode": false,
       "CodePath": null,
       "PackageReferences": null,
       "EditorReferences": null,
       "Metadata": {
-        "SingleAssetSource": "materials/ice/broken_ice.vmat"
+        "SingleAssetSource": "megascans/props/farm/metal_pot_vfyqcj2ga.vmdl"
       }
     }
   }
