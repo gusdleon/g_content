@@ -1,14 +1,21 @@
-// This file was auto-generated using Bridge for S&box
+// THIS FILE IS AUTO-GENERATED
 
 Layer0
 {
 	shader "shaders/projected_decals.shader"
+
+	//---- Lighting ----
+	F_SAMPLE_LIGHTMAP 1
 
 	//---- Normal ----
 	F_NORMAL_MAP 1
 
 	//---- Parallax Occlusion ----
 	F_PARALLAX 1
+
+	//---- Specular ----
+	F_SPECULAR 1
+	F_SPECULAR_CUBE_MAP 1 // In-game Cube Map
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "/megascans/atlas/decals/other/assets/textures/ukmmbdsfw_2k_ao.png"
@@ -30,7 +37,7 @@ Layer0
 	g_nLODThreshold "4"
 	g_nMaxSamples "32"
 	g_nMinSamples "8"
-	TextureHeight "/megascans/atlas/decals/other/assets/textures/ukmmbdsfw_2k_displacement.png"
+	TextureHeight "megascans/atlas/decals/other/assets/textures/ukmmbdsfw_2k_displacement.png"
 
 	//---- Roughness ----
 	TextureRoughness "/megascans/atlas/decals/other/assets/textures/ukmmbdsfw_2k_roughness.png"
