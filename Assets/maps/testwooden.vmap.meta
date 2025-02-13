@@ -1,39 +1,33 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": false,
     "ProjectConfig": {
       "Title": "testwooden",
       "Type": "map",
       "Org": "local",
       "Ident": "testwooden",
-      "Tags": null,
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "MenuResources": null,
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
-        "facepunch.wood_varnished_a_hs#18398",
+        "facepunch.pipe_a_1#33811",
+        "facepunch.pipe_a_128#33816",
+        "facepunch.pipe_a_16#33808",
+        "facepunch.pipe_a_2#33809",
+        "facepunch.pipe_a_32#33813",
+        "facepunch.pipe_a_4#33810",
+        "facepunch.pipe_a_64#33815",
         "facepunch.pipe_a_8#33814",
-        "facepunch.wood_varnished_a_hs#28977",
-        "facepunch.pipe_a_tileset_end#33821",
-        "facepunch.pipe_a_tileset_128#33820",
+        "facepunch.pipe_a_cap_b#33817",
+        "facepunch.pipe_a_cap#33812",
         "facepunch.pipe_a_corner_32#33818",
         "facepunch.pipe_a_t_32#33822",
-        "facepunch.pipe_a_cap_b#33817",
-        "facepunch.pipe_a_2#33809",
-        "facepunch.pipe_a_cap#33812",
-        "facepunch.pipe_a_16#33808",
-        "facepunch.pipe_a_4#33810",
-        "facepunch.pipe_a_128#33816",
-        "facepunch.pipe_a_1#33811",
-        "facepunch.pipe_a_64#33815",
-        "facepunch.pipe_a_32#33813"
+        "facepunch.pipe_a_tileset_128#33820",
+        "facepunch.pipe_a_tileset_end#33821",
+        "facepunch.wood_varnished_a_hs#18398"
       ],
+      "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "maps/testwooden.vmap"
       }

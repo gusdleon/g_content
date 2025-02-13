@@ -1,26 +1,21 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": true,
     "ProjectConfig": {
       "Title": "pipes_tileset",
       "Type": "map",
       "Org": "gusdleon",
       "Ident": "pipes_tileset",
-      "Tags": null,
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "MenuResources": null,
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [
         "baik.c_pipe_curve#19520",
         "baik.concretepipe#19521",
         "gusdleon.placas_numero_de_edificio_fime#42976"
       ],
+      "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "maps/tilesets/pipes_tileset.vmap"
       }
