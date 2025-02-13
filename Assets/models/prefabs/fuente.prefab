@@ -1,0 +1,458 @@
+{
+  "RootObject": {
+    "__guid": "a82a0514-6567-4773-8d23-ad7503aff63d",
+    "Flags": 0,
+    "Name": "fuente",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "ca71558c-0509-4f4b-bff3-3643d5294929",
+        "Flags": 0,
+        "Name": "escultura_materiales_fime",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.Prop",
+            "__guid": "79a6e762-0e5f-48cb-a064-1b9354f5c9c5",
+            "BodyGroups": 18446744073709551615,
+            "Health": 0,
+            "IsStatic": true,
+            "MaterialGroup": null,
+            "Model": "models/escultura_materiales_fime/escultura_materiales_fime.vmdl",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnPropBreak": null,
+            "OnPropTakeDamage": null,
+            "StartAsleep": false,
+            "Tint": "1,1,1,1"
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "6f85b083-6ef3-4c9d-8e2b-f949bf54d40d",
+            "Flags": 0,
+            "Name": "luces",
+            "Enabled": true,
+            "Children": [
+              {
+                "__guid": "f17afe07-5f7f-41d4-ad47-c0fa2ef7a8d7",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "0,-43.5,21",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "2b64d841-2d07-44b2-9e8c-4e15febb8d54",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "3cea2a7e-d304-443d-9dc9-1bcf6f72489c",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "21.75,-37.6721,21",
+                "Rotation": "0,0,0.258819,0.9659258",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "6844f327-df72-4562-887e-c4788c6137a3",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "617ff72f-f55b-419f-8962-c2d570275b30",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "37.6721,-21.75,21",
+                "Rotation": "0,0,0.4999999,0.8660254",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "952615c5-d47b-441a-a9fc-e9b22b90d272",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "ed5d5365-9c2a-43b0-91c7-3d00ef85f90b",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "43.5,-0.000001907349,21",
+                "Rotation": "0,0,0.7071067,0.7071068",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "3ff52325-1224-41f9-8c0e-3ede47cd50b0",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "7de75c8f-d214-4d3f-93f6-71f895738924",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "37.6721,21.74999,21",
+                "Rotation": "0,0,0.8660253,0.5000001",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "ffdc8fdd-1cdb-48fe-8436-4a41e04b4872",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "54dc5504-a85f-4ae2-a5ec-e5d535cc21a0",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "21.75,37.67209,21",
+                "Rotation": "0,0,0.9659257,0.2588192",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "fb9a1ed3-14fc-479a-b78f-9a3ec9825970",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "0d1c7000-b5cf-428c-b010-756fac6b9b61",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "0,43.5,21",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "ece6fd7c-a48b-48cd-abcf-5a2dd5a837d7",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "bca203cd-fa75-4252-a135-1d60258f8350",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "-21.75,37.6721,21",
+                "Rotation": "0,0,0.258819,0.9659258",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "90ebf6b7-b98d-4dab-b7ab-639378d9e0b5",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "e56cc157-40dc-4001-9acc-6cc1d9c31896",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "-37.6721,21.75,21",
+                "Rotation": "0,0,0.4999999,0.8660254",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "a9e9f699-ca6c-4420-874a-f34b7d45c8ee",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "c6c3b5ed-ed88-4d89-96fa-90275ab59fb2",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "-43.5,0.000001907349,21",
+                "Rotation": "0,0,0.7071067,0.7071068",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "ca04c935-c126-45b2-9244-96e3b1bb4450",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "843f445b-a1ad-4616-9b8a-054b58a3b991",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "-37.6721,-21.74999,21",
+                "Rotation": "0,0,0.8660253,0.5000001",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "a7abcc03-d1d5-4320-9c2a-d1202bc1c16d",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              },
+              {
+                "__guid": "536e9115-d081-42c8-bd0e-666b5c8fbfbe",
+                "Flags": 0,
+                "Name": "Point Light",
+                "Position": "-21.75,-37.67209,21",
+                "Rotation": "0,0,0.9659257,0.2588192",
+                "Tags": "light_point,light",
+                "Enabled": true,
+                "Components": [
+                  {
+                    "__type": "Sandbox.PointLight",
+                    "__guid": "87729b99-e7c3-49a5-925d-d05258f5f2cd",
+                    "Attenuation": 1,
+                    "FogMode": "Enabled",
+                    "FogStrength": 1,
+                    "LightColor": "0.91373,0.98039,1,1",
+                    "OnComponentDestroy": null,
+                    "OnComponentDisabled": null,
+                    "OnComponentEnabled": null,
+                    "OnComponentFixedUpdate": null,
+                    "OnComponentStart": null,
+                    "OnComponentUpdate": null,
+                    "Radius": 100,
+                    "Shadows": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "__variables": [
+      {
+        "Id": "Light Color",
+        "Title": "Light Color",
+        "Description": null,
+        "Group": null,
+        "Order": 0,
+        "Targets": [
+          {
+            "Id": "2b64d841-2d07-44b2-9e8c-4e15febb8d54",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "6844f327-df72-4562-887e-c4788c6137a3",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "952615c5-d47b-441a-a9fc-e9b22b90d272",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "3ff52325-1224-41f9-8c0e-3ede47cd50b0",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "ffdc8fdd-1cdb-48fe-8436-4a41e04b4872",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "fb9a1ed3-14fc-479a-b78f-9a3ec9825970",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "ece6fd7c-a48b-48cd-abcf-5a2dd5a837d7",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "90ebf6b7-b98d-4dab-b7ab-639378d9e0b5",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "a9e9f699-ca6c-4420-874a-f34b7d45c8ee",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "ca04c935-c126-45b2-9244-96e3b1bb4450",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "a7abcc03-d1d5-4320-9c2a-d1202bc1c16d",
+            "Property": "LightColor"
+          },
+          {
+            "Id": "87729b99-e7c3-49a5-925d-d05258f5f2cd",
+            "Property": "LightColor"
+          }
+        ]
+      }
+    ],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}
