@@ -37,7 +37,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/asaricommando/assets/models/dancing twerk.fbx"
+						filename = "models/asaricommando/assets/models/dancing_twerk.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 0.39371
@@ -88,9 +88,10 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = true
+						disable_interpolation = false
 						enable_scale = false
-						source_filename = "models/asaricommando/assets/models/dancing twerk anim.fbx"
-						start_frame = -1
+						source_filename = "models/asaricommando/assets/models/dancing_twerk_anim.fbx"
+						start_frame = 0
 						end_frame = 911
 						framerate = -1.0
 						take = 0
@@ -110,6 +111,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
+						disable_interpolation = false
 						enable_scale = false
 						frame_count = 1
 						frame_rate = 30

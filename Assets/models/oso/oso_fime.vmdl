@@ -38,7 +38,7 @@
 						align_origin_x_type = "None"
 						align_origin_y_type = "None"
 						align_origin_z_type = "None"
-						filename = "models/oso/assets/models/oso fime escala original pq_hull.dmx"
+						filename = "models/oso/assets/models/oso_fime_escala_original_pq_hull.dmx"
 						import_scale = 39.369999
 						faceMergeAngle = 10.0
 						maxHullVertices = 0
@@ -58,7 +58,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/oso/assets/models/oso fime escala original pq.dmx"
+						filename = "models/oso/assets/models/oso_fime_escala_original_pq.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 39.369999
