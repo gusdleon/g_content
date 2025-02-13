@@ -9,7 +9,6 @@ Layer0
 
 	//---- PBR ----
 	F_ANISOTROPIC_GLOSS 1
-	F_METALNESS_TEXTURE 1
 	F_SPECULAR 1
 
 	//---- Rendering ----
@@ -33,7 +32,7 @@ Layer0
 	g_bFogEnabled "1"
 
 	//---- Metalness ----
-	TextureMetalness "[0.000000 0.000000 0.000000 0.000000]"
+	g_flMetalness "0.000"
 
 	//---- Normal ----
 	g_flLightRangeForSelfShadowNormals "0.707"
