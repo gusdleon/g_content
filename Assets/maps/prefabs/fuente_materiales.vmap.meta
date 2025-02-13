@@ -1,22 +1,17 @@
 {
   "publish": {
-    "Allowed": true,
     "Enabled": false,
     "ProjectConfig": {
       "Title": "fuente_materiales",
       "Type": "map",
       "Org": "local",
       "Ident": "fuente_materiales",
-      "Tags": null,
       "Schema": 0,
-      "HasAssets": false,
-      "AssetsPath": null,
+      "IncludeSourceFiles": false,
       "Resources": null,
-      "MenuResources": null,
-      "HasCode": false,
-      "CodePath": null,
       "PackageReferences": [],
       "EditorReferences": [],
+      "IsWhitelistDisabled": false,
       "Metadata": {
         "SingleAssetSource": "maps/prefabs/fuente_materiales.vmap"
       }
